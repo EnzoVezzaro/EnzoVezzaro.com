@@ -11,6 +11,18 @@ import Projects from '../components/Projects.js';
 
 
 class HomePage extends Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+
+    }
+  }
+
+  componentDidMount(){
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
@@ -49,8 +61,9 @@ class HomePage extends Component {
         </footer>
         {/* end footer */}
 
-        {/* back to top */}
+        {/* back to top
         <a href="#0" className="cd-top"><i className="ion-android-arrow-up"></i></a>
+        */}
         {/* end back to top */}
 
 

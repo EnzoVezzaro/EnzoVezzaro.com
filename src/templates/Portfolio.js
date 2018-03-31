@@ -20,6 +20,8 @@ class Portfolio extends Component {
   }
 
   componentDidMount(){
+    window.scrollTo(0, 0)
+    
     setTimeout(()=>{
       this.setState({ hidePreload: true })
     }, 2000)

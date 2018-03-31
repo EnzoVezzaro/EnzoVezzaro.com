@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
+  Redirect,
   Link
 } from 'react-router-dom';
 //import './App.css';
@@ -20,6 +21,11 @@ class Projects extends Component {
 
   render() {
     const projects = this.state.projects;
+
+    if (!projects) {
+      return <Redirect to='/'/>;
+    }
+
     return (
       <div className="portfolio-div">
           <div className="portfolio">
@@ -28,7 +34,7 @@ class Projects extends Component {
                     projects.map((project, index) => {
                       let className = '';
 
-                      if (index == 2 || index == 4 || index == 6 || index == 8){
+                      if (index == 2 || index == 5 || index == 8 || index == 11){
                         className = 'col-md-6 col-sm-12';
                       } else {
                         className = 'col-md-3 col-sm-6';
@@ -44,7 +50,7 @@ class Projects extends Component {
                               state: { project: project }
                             }}
                             className="portfolio_item">
-                              <img src={ project.thumbnail } alt="image" className="img-responsive" />
+                              <img src={require(`../assets/img/portfolio/${project.thumbnail}`)} alt="image" className="img-responsive" />
                               <div className="portfolio_item_hover">
                                   <div className="portfolio-border clearfix">
                                       <div className="item_info">

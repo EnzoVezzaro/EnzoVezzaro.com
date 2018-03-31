@@ -20,18 +20,18 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>%REACT_APP_TITLE%</title>
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <link rel="icon" href="%PUBLIC_URL%/img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/bootstrap.min.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- main css -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet">
 
 
     <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
+    <script src="%PUBLIC_URL%/js/modernizr.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,278 +47,17 @@
     </noscript>
     <div id="root"></div>
 
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="pre-container">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    </div>
-    <!-- end Preloader -->
-
-    <div class="container-fluid">
-        <!-- box header -->
-        <header class="box-header">
-            <div class="box-logo">
-                <a href="index.html">
-                  <img src="img/logo_crea_con_codigos.svg" width="80" style="position:relative; top: -15px;" alt="Logo">
-                </a>
-            </div>
-            <!-- box-nav -->
-            <a class="box-primary-nav-trigger" href="#0">
-                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
-            </a>
-            <!-- box-primary-nav-trigger -->
-        </header>
-        <!-- end box header -->
-
-        <!-- nav -->
-        <nav>
-            <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
-
-                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contact.html">contact me</a></li>
-
-
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="https://www.facebook.com/evezzaro"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="https://www.instagram.com/enzovezzaro/"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social">
-                  <a href="https://medium.com/@enzovezzaro">
-                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                       width="30" height="30"
-                       viewBox="0 0 50 50"
-                       style="fill:#ffffff;position:relative;top:4px;"><g id="surface1"><path style=" " d="M 47.507813 12.441406 C 47.460938 12.375 47.410156 12.308594 47.351563 12.25 C 47.300781 12.195313 47.25 12.140625 47.191406 12.09375 C 47.054688 11.972656 46.910156 11.863281 46.742188 11.78125 L 34.777344 5.71875 L 34.066406 5.359375 C 34.066406 5.359375 34.0625 5.359375 34.0625 5.359375 C 33.839844 5.246094 33.601563 5.160156 33.359375 5.101563 C 33.09375 5.035156 32.820313 5 32.550781 5 C 31.351563 5 30.226563 5.628906 29.609375 6.636719 L 27.84375 9.546875 L 22.578125 18.210938 L 19.738281 12.65625 C 19.519531 12.296875 19.214844 12.015625 18.851563 11.832031 L 6.839844 5.753906 C 6.839844 5.75 6.835938 5.75 6.832031 5.746094 L 6.453125 5.558594 C 5.953125 5.304688 5.4375 5.175781 4.921875 5.175781 C 3.257813 5.175781 2 6.523438 2 8.3125 L 2 35.367188 C 2 36.84375 2.949219 38.394531 4.261719 39.058594 L 15.160156 44.574219 C 15.714844 44.855469 16.28125 45 16.847656 45 C 18.675781 45 20 43.5625 20 41.578125 L 20 32.847656 L 42 44 L 42 43.988281 L 42.769531 44.378906 C 43.441406 44.71875 44.113281 44.890625 44.769531 44.890625 C 46.640625 44.890625 48 43.496094 48 41.578125 L 48 13.835938 C 48 13.3125 47.8125 12.835938 47.507813 12.441406 Z M 18 41.578125 C 18 42.46875 17.523438 43 16.847656 43 C 16.609375 43 16.34375 42.933594 16.0625 42.792969 L 5.164063 37.273438 C 4.523438 36.949219 4 36.089844 4 35.367188 L 4 8.3125 C 4 7.597656 4.378906 7.175781 4.921875 7.175781 C 5.113281 7.175781 5.328125 7.226563 5.550781 7.339844 L 5.933594 7.535156 C 5.933594 7.535156 5.9375 7.535156 5.9375 7.535156 L 17.949219 13.617188 C 17.96875 13.628906 17.984375 13.648438 18 13.664063 Z M 30.585938 8.882813 L 31.320313 7.675781 C 31.582031 7.246094 32.0625 7 32.550781 7 C 32.664063 7 32.78125 7.015625 32.894531 7.046875 C 32.980469 7.066406 33.070313 7.097656 33.164063 7.144531 L 45.832031 13.558594 C 45.835938 13.558594 45.835938 13.5625 45.835938 13.5625 L 45.847656 13.566406 C 45.855469 13.570313 45.855469 13.582031 45.863281 13.585938 C 45.925781 13.636719 45.953125 13.722656 45.910156 13.792969 L 33.292969 34.558594 L 32.003906 36.675781 L 23.644531 20.304688 Z M 20 30.605469 L 20 17.5625 L 28.980469 35.15625 L 20.902344 31.066406 Z M 46 41.578125 C 46 42.414063 45.503906 42.890625 44.773438 42.890625 C 44.445313 42.890625 44.070313 42.796875 43.675781 42.597656 L 41.867188 41.679688 L 33.789063 37.589844 L 46 17.496094 Z "></path></g></svg>
-                  </a>
-                </li>
-                <li class="box-social"><a href="https://github.com/EnzoVezzaro"><i class="ion-social-github"></i></a></li>
-            </ul>
-        </nav>
-        <!-- end nav -->
-
-        <!-- box-intro -->
-        <section class="box-intro">
-            <div class="table-cell">
-                <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
-                        <b class="is-visible">design.</b>
-                        <b>&nbsp;coding.</b>
-                        <b>graphic.</b>
-                    </span>
-		        </h1>
-                <h5>all you need is a good developer.</h5>
-            </div>
-
-            <div class="mouse">
-                <div class="scroll"></div>
-            </div>
-        </section>
-        <!-- end box-intro -->
-    </div>
-
-    <!-- portfolio div -->
-    <div class="portfolio-div">
-        <div class="portfolio">
-            <div class="no-padding portfolio_container">
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6  fashion logo">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mockups in seconds</span>
-                                    <em>Fashion / Logo</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 ads graphics">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Floating mockups</span>
-                                    <em>Ads / Graphics</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 fashion ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Held by hands</span>
-                                    <em>Fashion / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-            </div>
-            <!-- end portfolio_container -->
-        </div>
-        <!-- portfolio -->
-    </div>
-    <!-- end portfolio div -->
-
-    <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Enzo Portfolio 2018</p>
-        </div>
-    </footer>
-    <!-- end footer -->
-
-    <!-- back to top -->
-    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
-    <!-- end back to top -->
-
-
-
     <!-- jQuery -->
-    <script src="js/jquery-2.1.1.js"></script>
+    <script src="%PUBLIC_URL%/js/jquery-2.1.1.js"></script>
     <!--  plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/animated-headline.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/js/menu.js"></script>
+    <script src="%PUBLIC_URL%/js/animated-headline.js"></script>
+    <script src="%PUBLIC_URL%/js/isotope.pkgd.min.js"></script>
 
 
     <!--  custom script -->
-    <script src="js/custom.js"></script>
+    <script src="%PUBLIC_URL%/js/custom.js"></script>
 
 </body>
 

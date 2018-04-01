@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-//import './App.css';
+import './Portfolio.css';
 import Menu from '../components/Menu.js';
 import Preloader from '../components/Preloader.js';
 
@@ -17,11 +17,13 @@ class Portfolio extends Component {
       hidePreload: false
     }
 
+    console.log(this.state.project);
+
   }
 
   componentDidMount(){
     window.scrollTo(0, 0)
-    
+
     setTimeout(()=>{
       this.setState({ hidePreload: true })
     }, 2000)
@@ -30,19 +32,79 @@ class Portfolio extends Component {
   render() {
     const {project} = this.state;
     return (
-      <div>
+      <div className="project">
 
         <Preloader />
 
         {/* top-bar */}
-        <div className="top-bar">
-            <h1>{ project.title }</h1>
-            <p><a href="#">{ project.keywords.main }</a> / { project.keywords.secondary }</p>
+        <div className="top-bar" style={{ backgroundImage: `url(../assets/img/portfolio/${project.images.introWindow})` }}>
+          <div className="container">
+            <div className="col-sm-12 project-intro-hero">
+              <h1>{ project.title }</h1>
+              <p><a href="#">{ project.keywords.main }</a> / { project.keywords.secondary }</p>
+            </div>
+            <div className="row no-gutters project-hero-presentation">
+              <div className="col-sm-6 presentation">
+                <div className="col-sm-10">
+                  <p className="presentation"><span>Project Presentation.</span>{ `${project.body}` }</p>
+                </div>
+              </div>
+              <div className="col-sm-6 services">
+                <div className="col-sm-10">
+                  <p className="presentation"><span>Services.</span></p>
+                  {
+                    project.services.map(function(service, index){
+                     return <p key={`service_${index}`}>{ `${service}, ` }</p>
+                   })
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="col-sm-12 project-hero-window">
+              <img src={ require(`../assets/img/portfolio/${project.images.introWindow}`) } alt="" className="img-responsive drop-shadow" />
+            </div>
+            <div className="col-sm-12 project-hero-phone">
+              <div>
+                <img src={ require(`../assets/img/portfolio/${project.images.introPhone}`) } alt="" className="img-responsive drop-shadow" />
+              </div>
+            </div>
+          </div>
         </div>
         {/* end top-bar */}
 
         {/* main-container */}
-        <div className="container main-container">
+        <div className="container-fluid main-container ">
+          <div className="sections col-md-12" id="section_1" >
+            <div className="col-sm-7 project-section-1-window">
+              <div>
+                <img src={ require(`../assets/img/portfolio/${project.images.section1Window}`) } alt="" className="img-responsive drop-shadow" />
+              </div>
+            </div>
+            <div className="col-sm-5 project-section-1-body">
+                <h2 className="section-1-title">01.</h2>
+                <h2 className="section-1-title">Detail Retina screen, Loupe resource.</h2>
+                <p><span className="bold-text" >Project Concept</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div className="sections col-md-12" id="section_2">
+            <div className="col-md-7">
+                <p>colonna 2</p>
+            </div>
+            <div className="col-md-5">
+                <p>colonna 2</p>
+            </div>
+          </div>
+          <div className="sections col-md-12" id="section_3">
+            <div className="col-md-5">
+                <p>colonna 2</p>
+            </div>
+            <div className="col-md-7">
+                <p>colonna 2</p>
+            </div>
+          </div>
+            {/*
             <div className="col-md-12">
                 <img src={ project.image } alt="" className="img-responsive" />
                 <div className="h-30"></div>
@@ -75,6 +137,7 @@ class Portfolio extends Component {
                     <li className="box-social"><a href="#0"><i className="ion-social-dribbble"></i></a></li>
                 </ul>
             </div>
+            */}
         </div>
         {/* end main-container */}
 
@@ -87,8 +150,9 @@ class Portfolio extends Component {
         </footer>
         {/* end footer */}
 
-        {/* back to top */}
+        {/* back to top
         <a href="#0" className="cd-top"><i className="ion-android-arrow-up"></i></a>
+        */}
         {/* end back to top */}
 
       </div>

@@ -31,6 +31,7 @@ class Portfolio extends Component {
 
   render() {
     const {project} = this.state;
+    const section_2_Window = require(`../assets/img/portfolio/${project.images.section2Window}`);
     return (
       <div className="project">
 
@@ -84,68 +85,43 @@ class Portfolio extends Component {
             </div>
             <div className="col-sm-5 project-section-1-body">
                 <h2 className="section-1-title">01.</h2>
-                <h2 className="section-1-title">Detail Retina screen, Loupe resource.</h2>
-                <p><span className="bold-text" >Project Concept</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2 className="section-1-title">{ `${project.section_1.title}` }</h2>
+                <p><span className="bold-text" >Project Concept</span> { `${project.section_1.body }` }</p>
             </div>
           </div>
-          <div className="sections col-md-12" id="section_2">
+
+          <div className="sections col-md-12" id="section_2" style={{ backgroundImage: `url(${section_2_Window})` }}>
             <div className="col-md-7">
-                <p>colonna 2</p>
+
             </div>
             <div className="col-md-5">
-                <p>colonna 2</p>
+              <h2 className="section-1-title">02.</h2>
+              <h2 className="section-1-title">{ `${project.section_2.title }` }</h2>
+              <span className="bold-text" >Project Concept</span>
+              <p>{ `${project.section_2.body }` }</p>
             </div>
           </div>
           <div className="sections col-md-12" id="section_3">
             <div className="col-md-5">
-                <p>colonna 2</p>
+              <h2 className="section-1-title">03.</h2>
+              <h2 className="section-1-title">{ `${project.section_3.title }` }</h2>
+              <p><span className="bold-text" >Project Concept</span> { `${project.section_3.body }` }</p>
             </div>
             <div className="col-md-7">
-                <p>colonna 2</p>
+              <div className="section-3-images">
+                <img src={ require(`../assets/img/portfolio/${project.images.section3Phone}`) } alt="" className="img-responsive drop-shadow" />
+                <img src={ require(`../assets/img/portfolio/${project.images.section3Tablet}`) } alt="" className="img-responsive drop-shadow" />
+              </div>
             </div>
           </div>
-            {/*
-            <div className="col-md-12">
-                <img src={ project.image } alt="" className="img-responsive" />
-                <div className="h-30"></div>
-            </div>
-
-            <div className="col-md-12">
-                <h3 className="text-uppercase">{ project.title }</h3>
-                <h5>{ project.description }</h5>
-                <div className="h-30"></div>
-            </div>
-
-            <div className="col-md-9">
-              { project.body }
-            </div>
-
-            <div className="col-md-3">
-                <ul className="cat-ul">
-                {
-                  project.features.map(function(feature, index){
-                   return <li key={index} ><i className="ion-ios-circle-filled"></i> {feature}</li>
-                 })
-                }
-                </ul>
-                <div className="h-10"></div>
-                <h4>Share</h4>
-                <ul className="social-ul">
-                    <li className="box-social"><a href="#0"><i className="ion-social-facebook"></i></a></li>
-                    <li className="box-social"><a href="#0"><i className="ion-social-instagram-outline"></i></a></li>
-                    <li className="box-social"><a href="#0"><i className="ion-social-twitter"></i></a></li>
-                    <li className="box-social"><a href="#0"><i className="ion-social-dribbble"></i></a></li>
-                </ul>
-            </div>
-            */}
         </div>
         {/* end main-container */}
 
 
         {/* footer */}
-        <footer>
+        <footer className='footer-project'>
             <div className="container-fluid">
-                <p className="copyright">© Box Portfolio 2016</p>
+
             </div>
         </footer>
         {/* end footer */}

@@ -191,10 +191,6 @@
   margin-bottom: -100%;
 }
 
-.project .top-bar .project-hero-window img, .project .top-bar .project-hero-phone img {
-  filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
-}
-
 .project .top-bar .project-hero-phone div{
   z-index: 99;
   width: 20%;
@@ -238,14 +234,61 @@
   font-weight: lighter;
 }
 
-.project .container-fluid #section_1 div p, .project .container-fluid #section_1 div h2{
+.project .container-fluid #section_1 div p, .project .container-fluid #section_1 div h2, .project .container-fluid #section_2 div p, .project .container-fluid #section_2 div h2, .project .container-fluid #section_2 div span {
   color: #fff;
 }
 
 .project .container-fluid #section_2{
   background-color: #00B1FF;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: -170px 240px;
+  background-size: contain;
+}
+
+.project .container-fluid #section_2 div{
+  text-align: right;
+  margin-top: 50px;
 }
 
 .project .container-fluid #section_3{
   background-color: #EDEDED;
+  height: 600px;
+}
+
+.project .container-fluid #section_3 div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.project .container-fluid #section_3 div .section-3-images{
+  flex-direction: row;
+}
+
+.project .container-fluid #section_3 div img:first-child{
+  width: 30%;
+  position: relative;
+  top: 250px;
+  left: 40px;
+  z-index: 3;
+}
+
+.project .container-fluid #section_3 div img:last-child{
+  width: 60%;
+  position: relative;
+  top: 100px;
+  z-index: 2;
+}
+
+.project .container-fluid #section_3 div p, .project .container-fluid #section_3 div h2{
+  color: #00161F;
+}
+
+.project .footer-project{
+  height: 300px;
+  background-color: #001620;
+  justify-content: flex-end;
 }

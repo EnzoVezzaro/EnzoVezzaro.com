@@ -5,6 +5,18 @@ module.exports = {
       description: 'Visual Art Exhibition',
       body: 'Art Project United is a visual art exhibition using social media challenging people and photographers both professional and amateur to set up, join together and their powerful images of people wearing the united tank top to show awareness concern us expressing our stories strength pride beauty history and that we are united.',
       client: 'Greg MacDonal',
+      section_1:{
+        title: 'Detail Retina screen, Loupe resource.',
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      },
+      section_2:{
+        title: 'Introducing your UX platform.',
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      },
+      section_3:{
+        title: 'Smart Phone and Tablet Responsive screens.',
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      },
       services:[
         'HTML5',
         'CSS',
@@ -16,6 +28,9 @@ module.exports = {
         introWindow: 'art-project-united-intro-window.png',
         introPhone: 'art-project-united-intro-phone.png',
         section1Window: 'art-project-united-section-1-window.png',
+        section2Window: 'test-phones-section-3.png',
+        section3Tablet: 'art-project-united-section-4-tablet.png',
+        section3Phone: 'art-project-united-section-3-phone.png',
       },
       thumbnail: 'art-project-united.jpg',
       keywords: {

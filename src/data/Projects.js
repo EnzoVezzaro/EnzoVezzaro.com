@@ -65,12 +65,12 @@ module.exports = {
         'GITHUB PAGES',
       ],
       images: {
-        introWindow: 'art-project-united-intro-window.png',
-        introPhone: 'art-project-united-intro-phone.png',
-        section1Window: 'art-project-united-section-1-window.png',
+        introWindow: 'cannalliance-intro-window.png',
+        introPhone: 'cannalliance-intro-phone.png',
+        section1Window: 'cannalliance-section-1-window.png',
         section2Window: 'test-phones-section-3.png',
-        section3Tablet: 'art-project-united-section-4-tablet.png',
-        section3Phone: 'art-project-united-section-3-phone.png',
+        section3Tablet: 'cannalliance-section-4-tablet.png',
+        section3Phone: 'cannalliance-section-4-phone.png',
       },
       thumbnail: 'cannalliance.jpg',
       keywords: {
@@ -105,12 +105,12 @@ module.exports = {
         'GITHUB PAGES',
       ],
       images: {
-        introWindow: 'art-project-united-intro-window.png',
-        introPhone: 'art-project-united-intro-phone.png',
-        section1Window: 'art-project-united-section-1-window.png',
+        introWindow: 'insula-intro-window.png',
+        introPhone: 'insula-intro-phone.png',
+        section1Window: 'insula-section-1-window.png',
         section2Window: 'test-phones-section-3.png',
-        section3Tablet: 'art-project-united-section-4-tablet.png',
-        section3Phone: 'art-project-united-section-3-phone.png',
+        section3Tablet: 'insula-section-4-tablet.png',
+        section3Phone: 'insula-section-4-phone.png',
       },
       thumbnail: 'insula-digital-studio.jpg',
       keywords: {
@@ -145,12 +145,12 @@ module.exports = {
         'GITHUB PAGES',
       ],
       images: {
-        introWindow: 'art-project-united-intro-window.png',
-        introPhone: 'art-project-united-intro-phone.png',
-        section1Window: 'art-project-united-section-1-window.png',
+        introWindow: 'larasante-intro-window.png',
+        introPhone: 'larasante-intro-phone.png',
+        section1Window: 'larasante-section-1-window.png',
         section2Window: 'test-phones-section-3.png',
-        section3Tablet: 'art-project-united-section-4-tablet.png',
-        section3Phone: 'art-project-united-section-3-phone.png',
+        section3Tablet: 'larasante-section-4-tablet.png',
+        section3Phone: 'larasante-section-4-phone.png',
       },
       thumbnail: 'larazante.jpg',
       keywords: {
@@ -163,7 +163,7 @@ module.exports = {
     {
       title: 'Elige Tu Presidente',
       description: 'Online Pool',
-      body: 'Political Website for online questionary about the Presidential Election in the Dominican Repiblic in 2016.',
+      body: 'Political Website for online pooling about the Presidential Election in the Dominican Repiblic in 2016.',
       client: 'Greg MacDonal',
       section_1:{
         title: 'Detail Retina screen, Loupe resource.',
@@ -185,12 +185,12 @@ module.exports = {
         'GITHUB PAGES',
       ],
       images: {
-        introWindow: 'art-project-united-intro-window.png',
-        introPhone: 'art-project-united-intro-phone.png',
-        section1Window: 'art-project-united-section-1-window.png',
+        introWindow: 'eligetupresidente-intro-window.png',
+        introPhone: 'eligetupresidente-intro-phone.png',
+        section1Window: 'eligetupresidente-section-1-window.png',
         section2Window: 'test-phones-section-3.png',
-        section3Tablet: 'art-project-united-section-4-tablet.png',
-        section3Phone: 'art-project-united-section-3-phone.png',
+        section3Tablet: 'eligetupresidente-section-4-tablet.png',
+        section3Phone: 'eligetupresidente-section-4-phone.png',
       },
       thumbnail: 'presidente-2018.jpg',
       keywords: {
@@ -198,7 +198,7 @@ module.exports = {
         secondary: 'Online Pool'
       },
       path: 'project/presidente-2018',
-      link: 'http://eligetupresidenterd.com/'
+      link: 'http://enzovezzaro.github.io/eligetupresidente/'
     },
     {
       title: "90's Consoles",
@@ -225,12 +225,12 @@ module.exports = {
         'GITHUB PAGES',
       ],
       images: {
-        introWindow: 'art-project-united-intro-window.png',
-        introPhone: 'art-project-united-intro-phone.png',
-        section1Window: 'art-project-united-section-1-window.png',
+        introWindow: 'consoles-intro-window.png',
+        introPhone: 'consoles-intro-phone.png',
+        section1Window: 'consoles-section-1-window.png',
         section2Window: 'test-phones-section-3.png',
-        section3Tablet: 'art-project-united-section-4-tablet.png',
-        section3Phone: 'art-project-united-section-3-phone.png',
+        section3Tablet: 'consoles-section-4-tablet.png',
+        section3Phone: 'consoles-section-4-phone.png',
       },
       thumbnail: 'consoles.jpg',
       keywords: {
@@ -241,9 +241,9 @@ module.exports = {
       link: 'http://enzovezzaro.github.io/90-s-Consoles/'
     },
     {
-      title: 'Voces de la Calle',
-      description: 'Movie',
-      body: 'Dominican Film, now in premier in the United States, about the life and struggles of 3 friends trying to get ahead with their musical projects fighting for a better life and better future.',
+      title: 'Yoox Net-A-Porter Group',
+      description: 'E-commerce Component',
+      body: 'YOOX NET-A-PORTER GROUP is the global Internet retailing partner for leading fashion & design brands. It has established itself amongst the market leaders with the multi-brand stores yoox.com, thecorner.com and shoescribe.com, as well as with numerous mono-brand online stores all “Powered by YNAP”. The Group has offices and operations in the United States, Europe, Japan, China and Hong Kong and delivers to more than 100 countries worldwide.',
       client: 'Greg MacDonal',
       section_1:{
         title: 'Detail Retina screen, Loupe resource.',
@@ -265,60 +265,104 @@ module.exports = {
         'GITHUB PAGES',
       ],
       images: {
-        introWindow: 'art-project-united-intro-window.png',
-        introPhone: 'art-project-united-intro-phone.png',
-        section1Window: 'art-project-united-section-1-window.png',
+        introWindow: 'yoox-intro-window.png',
+        introPhone: 'yoox-intro-phone.png',
+        section1Window: 'yoox-section-1-window.png',
         section2Window: 'test-phones-section-3.png',
-        section3Tablet: 'art-project-united-section-4-tablet.png',
-        section3Phone: 'art-project-united-section-3-phone.png',
+        section3Tablet: 'yoox-section-4-tablet.png',
+        section3Phone: 'yoox-section-4-phone.png',
       },
-      thumbnail: 'voces-de-la-calle.jpg',
+      thumbnail: 'yoox.jpg',
       keywords: {
         main: 'Website',
         secondary: 'Social Media'
       },
-      path: 'project/voces-de-la-calle',
-      link: 'http://vocesdelacalle.net/'
-    },
-    {
-      title: 'Vape Cloud Shop',
-      description: 'Vape Store',
-      body: 'E-commerce Vape Shop with big present in the Latin American Market. With more than 100 products online and hundreds of customers, Vape Cloud Shop built its audience overtime offering them great customer service and support.',
-      client: 'Greg MacDonal',
-      section_1:{
-        title: 'Detail Retina screen, Loupe resource.',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      },
-      section_2:{
-        title: 'Introducing your UX platform.',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      },
-      section_3:{
-        title: 'Smart Phone and Tablet Responsive screens.',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      },
-      services:[
-        'HTML5',
-        'CSS',
-        'JS / JQUERY',
-        'ANALYTICS',
-        'GITHUB PAGES',
-      ],
-      images: {
-        introWindow: 'art-project-united-intro-window.png',
-        introPhone: 'art-project-united-intro-phone.png',
-        section1Window: 'art-project-united-section-1-window.png',
-        section2Window: 'test-phones-section-3.png',
-        section3Tablet: 'art-project-united-section-4-tablet.png',
-        section3Phone: 'art-project-united-section-3-phone.png',
-      },
-      thumbnail: 'vape-cloud-shop.jpg',
-      keywords: {
-        main: 'E-commerce',
-        secondary: 'Sales'
-      },
-      path: 'project/vape-cloud-shop',
-      link: 'http://vapecloudshop.com/'
+      path: 'project/yoox-group',
+      link: 'https://enzovezzaro.github.io/YOOX_production/'
     }
   ]
 };
+
+/*
+,
+{
+  title: 'Voces de la Calle',
+  description: 'Movie',
+  body: 'Dominican Film, now in premier in the United States, about the life and struggles of 3 friends trying to get ahead with their musical projects fighting for a better life and better future.',
+  client: 'Greg MacDonal',
+  section_1:{
+    title: 'Detail Retina screen, Loupe resource.',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  },
+  section_2:{
+    title: 'Introducing your UX platform.',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  },
+  section_3:{
+    title: 'Smart Phone and Tablet Responsive screens.',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  },
+  services:[
+    'HTML5',
+    'CSS',
+    'JS / JQUERY',
+    'ANALYTICS',
+    'GITHUB PAGES',
+  ],
+  images: {
+    introWindow: 'art-project-united-intro-window.png',
+    introPhone: 'art-project-united-intro-phone.png',
+    section1Window: 'art-project-united-section-1-window.png',
+    section2Window: 'test-phones-section-3.png',
+    section3Tablet: 'art-project-united-section-4-tablet.png',
+    section3Phone: 'art-project-united-section-3-phone.png',
+  },
+  thumbnail: 'voces-de-la-calle.jpg',
+  keywords: {
+    main: 'Website',
+    secondary: 'Social Media'
+  },
+  path: 'project/voces-de-la-calle',
+  link: 'http://vocesdelacalle.net/'
+},
+{
+  title: 'Vape Cloud Shop',
+  description: 'Vape Store',
+  body: 'E-commerce Vape Shop with big present in the Latin American Market. With more than 100 products online and hundreds of customers, Vape Cloud Shop built its audience overtime offering them great customer service and support.',
+  client: 'Greg MacDonal',
+  section_1:{
+    title: 'Detail Retina screen, Loupe resource.',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  },
+  section_2:{
+    title: 'Introducing your UX platform.',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  },
+  section_3:{
+    title: 'Smart Phone and Tablet Responsive screens.',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  },
+  services:[
+    'HTML5',
+    'CSS',
+    'JS / JQUERY',
+    'ANALYTICS',
+    'GITHUB PAGES',
+  ],
+  images: {
+    introWindow: 'art-project-united-intro-window.png',
+    introPhone: 'art-project-united-intro-phone.png',
+    section1Window: 'art-project-united-section-1-window.png',
+    section2Window: 'test-phones-section-3.png',
+    section3Tablet: 'art-project-united-section-4-tablet.png',
+    section3Phone: 'art-project-united-section-3-phone.png',
+  },
+  thumbnail: 'vape-cloud-shop.jpg',
+  keywords: {
+    main: 'E-commerce',
+    secondary: 'Sales'
+  },
+  path: 'project/vape-cloud-shop',
+  link: 'http://vapecloudshop.com/'
+}
+*/

@@ -144,6 +144,7 @@
 .project .top-bar h1{
   color: #00161F;
   font-size: 48px;
+  line-height: 48px;
   text-align: left;
   text-transform: none;
 }
@@ -160,10 +161,22 @@
   margin-bottom: 50px;
 }
 
+.project .top-bar .services, .project .top-bar .technology{
+  margin-bottom: 20px;
+}
+
+.project .top-bar .services span, .project .top-bar .technology span{
+  text-align: left;
+  font-weight: bold;
+  color: #00161F;
+  padding-right: 5px;
+}
+
 .project .top-bar .presentation{
   text-align: left;
   color: #00161F;
   padding-right: 5px;
+  margin-bottom: 20px;
 }
 
 .project .top-bar .presentation span{
@@ -184,7 +197,7 @@
 .project .top-bar .project-hero-phone{
   display: flex;
   justify-content: flex-end;
-  margin-top: 150px;
+  margin-top: 16vw;
   padding-right: 10%;
   position: relative;
   top: -25vw;
@@ -240,7 +253,7 @@
 
 .project .container-fluid #section_2{
   background-color: #00B1FF;
-  height: 700px;
+  height: 40vw;
   background-repeat: no-repeat;
   background-position: -170px 240px;
   background-size: contain;
@@ -288,7 +301,66 @@
 }
 
 .project .footer-project{
-  height: 300px;
+  height: 30vw;
   background-color: #001620;
   justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project .container-fluid #section_1{
+    margin-bottom: -50px !important;
+  }
+  .project .container-fluid #section_1 div:first-child{
+    top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .portfolio_item {
+        width: 50vw !important;
+        height: 50vw !important;
+    }
+    .project .container-fluid #section_2 {
+      background-position: -170px 60px;
+    }
+    .project .container-fluid #section_2 div:last-child{
+      margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+  .project .top-bar .project-hero-phone{
+    margin-top: 30vw !important;
+  }
+  .main-container{
+    padding-bottom: 0;
+  }
+  .project .container-fluid #section_1 {
+    height: auto !important;
+  }
+  .project .container-fluid #section_1 div {
+    left: 0 !important;
+  }
+  .project .container-fluid #section_1 div.project-section-1-window{
+    margin-top: 200px !important;
+    margin-bottom: 20px !important;
+  }
+  .project .container-fluid #section_1 div.project-section-1-body{
+    padding-bottom: 50px !important;
+  }
+  .project .container-fluid #section_2{
+    height: 90vw !important;
+  }
+  .project .container-fluid #section_3{
+    height: auto !important;
+  }
+  .project .container-fluid #section_3 div.col-sm-5{
+    padding-top: 40px;
+  }
+  .project .container-fluid #section_3 div img:last-child{
+    top: 30px !important;
+  }
+  .project .container-fluid #section_3 div img:first-child{
+    top: 160px !important;
+  }
 }

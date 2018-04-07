@@ -16,10 +16,10 @@ class NotFound extends Component {
   }
 
   render() {
-    const {project} = this.state;
+    const imgNotFound = require(`../assets/img/page-not-found.svg`);
+
     return (
-      <div>
-        <h1>Not Found!!!</h1>
+      <div style={{ display: 'flex', height: '100vh', backgroundImage: 'url(' + imgNotFound + ')', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
       </div>
     );
   }

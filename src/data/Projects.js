@@ -18,6 +18,12 @@ module.exports = {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       services:[
+        'Web Design',
+        'Web Development',
+        'E-Store integration',
+        'Social Media Campaign',
+      ],
+      technology:[
         'HTML5',
         'CSS',
         'JS / JQUERY',
@@ -58,6 +64,11 @@ module.exports = {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       services:[
+        'Web Design',
+        'Web Development',
+        'Social Media Campaign',
+      ],
+      technology:[
         'HTML5',
         'CSS',
         'JS / JQUERY',
@@ -77,7 +88,7 @@ module.exports = {
         main: 'Website',
         secondary: 'Community'
       },
-      path: 'project/cannalliance-use',
+      path: 'project/cannalliance-usa',
       link: 'http://www.cannallianceusa.com/'
     },
     {
@@ -98,6 +109,11 @@ module.exports = {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       services:[
+        'Web Design',
+        'Web Development',
+        'Social Media Campaign',
+      ],
+      technology:[
         'HTML5',
         'CSS',
         'JS / JQUERY',
@@ -138,6 +154,11 @@ module.exports = {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       services:[
+        'Web Design',
+        'Web Development',
+        'Social Media Campaign',
+      ],
+      technology:[
         'HTML5',
         'CSS',
         'JS / JQUERY',
@@ -178,6 +199,11 @@ module.exports = {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       services:[
+        'Web Design',
+        'Web Development',
+        'Online Pool',
+      ],
+      technology:[
         'HTML5',
         'CSS',
         'JS / JQUERY',
@@ -218,6 +244,10 @@ module.exports = {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       services:[
+        'Web Design',
+        'Web Development',
+      ],
+      technology:[
         'HTML5',
         'CSS',
         'JS / JQUERY',
@@ -258,6 +288,10 @@ module.exports = {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       services:[
+        'Web Design',
+        'Web Development',
+      ],
+      technology:[
         'HTML5',
         'CSS',
         'JS / JQUERY',

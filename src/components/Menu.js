@@ -22,7 +22,7 @@ class Menu extends Component {
         <header className="box-header">
             <div className="box-logo">
                 <a href="/">
-                  <img src="img/logo_crea_con_codigos.svg" width="80" style={{ position:'relative', top: -15 }} alt="Logo" />
+                  <img src="/img/logo_crea_con_codigos.svg" width="80" style={{ position:'relative', top: -15 }} alt="Logo" />
                 </a>
             </div>
             {/* box-nav */}
@@ -38,20 +38,21 @@ class Menu extends Component {
             <ul className="box-primary-nav">
                 <li className="box-label">About me</li>
 
-                <li><a href="/">Intro</a> <i className="ion-ios-circle-filled color"></i></li>
+                <li><a href="/">Projects</a> <i className="ion-ios-circle-filled color"></i></li>
                 <li><a href="/about-me">About me</a></li>
-                <li><a href="/contact-me">contact me</a></li>
+                <li><a href="mailto:enzovezzaro05@gmail.com?Subject=Hello%20Enzo" target="_blank">contact me</a></li>
 
                 <li className="box-label">Follow me</li>
-
-                <li className="box-social"><a href="https://www.facebook.com/evezzaro"><i className="ion-social-facebook"></i></a></li>
-                <li className="box-social"><a href="https://www.instagram.com/enzovezzaro/"><i className="ion-social-instagram-outline"></i></a></li>
-                <li className="box-social">
-                  <a href="https://medium.com/@enzovezzaro">
-                    <img src={require("../assets/img/medium.svg")} alt="Logo" />
-                  </a>
-                </li>
-                <li className="box-social"><a href="https://github.com/EnzoVezzaro"><i className="ion-social-github"></i></a></li>
+                <div className='socialContainer'>
+                  <li className="box-social"><a href="https://www.facebook.com/evezzaro"><i className="ion-social-facebook"></i></a></li>
+                  <li className="box-social"><a href="https://www.instagram.com/enzovezzaro/"><i className="ion-social-instagram-outline"></i></a></li>
+                  <li className="box-social">
+                    <a href="https://medium.com/@enzovezzaro">
+                      <img src={require("../assets/img/medium.svg")} alt="Logo" />
+                    </a>
+                  </li>
+                  <li className="box-social"><a href="https://github.com/EnzoVezzaro"><i className="ion-social-github"></i></a></li>
+                </div>
             </ul>
         </nav>
         {/* end nav */}

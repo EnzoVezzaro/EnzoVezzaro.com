@@ -12,21 +12,24 @@ class Portfolio extends Component {
   constructor(props){
     super(props);
 
-    this.state = {
-      project: this.props.location.state.project,
-      hidePreload: false
+    if (!props.location.state){
+      window.location.replace("/");
+    } else {
+      this.state = {
+        project: this.props.location.state.project,
+        hidePreload: false
+      }
     }
-
-    console.log(this.state.project);
 
   }
 
-  componentDidMount(){
+  componentWillMount(){
     window.scrollTo(0, 0)
 
     setTimeout(()=>{
       this.setState({ hidePreload: true })
     }, 2000)
+
   }
 
   render() {
@@ -42,22 +45,35 @@ class Portfolio extends Component {
           <div className="container">
             <div className="col-sm-12 project-intro-hero">
               <h1>{ project.title }</h1>
-              <p><a href="#">{ project.keywords.main }</a> / { project.keywords.secondary }</p>
+              <p>{ project.keywords.main } / { project.keywords.secondary }</p>
             </div>
             <div className="row no-gutters project-hero-presentation">
               <div className="col-sm-6 presentation">
                 <div className="col-sm-10">
-                  <p className="presentation"><span>Project Presentation.</span>{ `${project.body}` }</p>
+                  <p className="presentation"><span>Project Presentation. </span>{ `${project.body}` }</p>
+                </div>
+                <div className="col-sm-10">
+                  <p className="presentation"><span>Link. </span><a href={ `${project.link}` } target="_blank" >{ `${project.link}` }</a></p>
                 </div>
               </div>
               <div className="col-sm-6 services">
                 <div className="col-sm-10">
-                  <p className="presentation"><span>Services.</span></p>
+                  <div className="services"><span>Services. </span>
                   {
                     project.services.map(function(service, index){
-                     return <p key={`service_${index}`}>{ `${service}, ` }</p>
+                     return <p key={`service_${index}`}>{ `${service},` }&nbsp;</p>
                    })
                   }
+                  </div>
+                </div>
+                <div className="col-sm-10">
+                  <div className="technology"><span>Technology. </span>
+                  {
+                    project.technology.map(function(technology, index){
+                     return <p key={`technology_${index}`}>{ `${technology},` }&nbsp;</p>
+                   })
+                  }
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,12 +118,12 @@ class Portfolio extends Component {
             </div>
           </div>
           <div className="sections col-md-12" id="section_3">
-            <div className="col-md-5">
+            <div className="col-sm-5">
               <h2 className="section-1-title">03.</h2>
               <h2 className="section-1-title">{ `${project.section_3.title }` }</h2>
               <p><span className="bold-text" >Project Concept</span> { `${project.section_3.body }` }</p>
             </div>
-            <div className="col-md-7">
+            <div className="col-sm-7">
               <div className="section-3-images">
                 <img src={ require(`../assets/img/portfolio/${project.images.section3Phone}`) } alt="" className="img-responsive drop-shadow" />
                 <img src={ require(`../assets/img/portfolio/${project.images.section3Tablet}`) } alt="" className="img-responsive drop-shadow" />

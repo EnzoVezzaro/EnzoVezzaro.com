@@ -26,7 +26,7 @@ class App extends Component {
             <Route path="/about-me" render={() => <AboutMe />}/>
             <Route path="/contact-me" component={ContactMe}/>
             <Route path="/project" component={Portfolio}/>
-            <Route component={NotFound} />
+            <Route path="/404-not-found" component={NotFound} />
           </Switch>
         </div>
       </Router>

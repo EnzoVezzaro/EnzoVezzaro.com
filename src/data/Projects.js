@@ -6,16 +6,16 @@ module.exports = {
       body: 'Art Project United is a visual art exhibition using social media challenging people and photographers both professional and amateur to set up, join together and their powerful images of people wearing the united tank top to show awareness concern us expressing our stories strength pride beauty history and that we are united.',
       client: 'Greg MacDonal',
       section_1:{
-        title: 'Detail Retina screen, Loupe resource.',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        title: 'Goal',
+        body: "Building an impacting website where promote Greg's project - #ARTPROJECTUNITED - a social media initiative that calls for more education about racial inequality in United States."
       },
       section_2:{
-        title: 'Introducing your UX platform.',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        title: 'Development Strategy.',
+        body: 'I created an ecosystem based on Javascript integrations; All based on Front-end technologies to allow flexibility and eventually scalability.'
       },
       section_3:{
-        title: 'Smart Phone and Tablet Responsive screens.',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        title: 'UX / UI Strategy.',
+        body: 'My goal was to communicate efficiently a simple messaging while providing a simple-to-use interface.'
       },
       services:[
         'Web Design',

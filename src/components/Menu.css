@@ -237,6 +237,7 @@
 .box-primary-nav.is-visible {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    z-index: 999;
 }
 
 .box-primary-nav {

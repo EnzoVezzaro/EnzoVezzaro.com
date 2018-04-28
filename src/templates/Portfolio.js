@@ -102,18 +102,22 @@ class Portfolio extends Component {
             <div className="col-sm-5 project-section-1-body">
                 <h2 className="section-1-title">01.</h2>
                 <h2 className="section-1-title">{ `${project.section_1.title}` }</h2>
-                <p><span className="bold-text" >Project Concept</span> { `${project.section_1.body }` }</p>
+                <br />
+                <p><span className="bold-text" >Project Concept.</span> { `${project.section_1.body }` }</p>
             </div>
           </div>
-
-          <div className="sections col-md-12" id="section_2" style={{ backgroundImage: `url(${section_2_Window})` }}>
+          {/*
+            style={{ backgroundImage: `url(${section_2_Window})` }}
+            <span className="bold-text" >Project Concept.</span>
+          */}
+          <div className="sections col-md-12" id="section_2" >
             <div className="col-md-7">
 
             </div>
             <div className="col-md-5">
               <h2 className="section-1-title">02.</h2>
               <h2 className="section-1-title">{ `${project.section_2.title }` }</h2>
-              <span className="bold-text" >Project Concept</span>
+              <br />
               <p>{ `${project.section_2.body }` }</p>
             </div>
           </div>
@@ -121,7 +125,8 @@ class Portfolio extends Component {
             <div className="col-sm-5">
               <h2 className="section-1-title">03.</h2>
               <h2 className="section-1-title">{ `${project.section_3.title }` }</h2>
-              <p><span className="bold-text" >Project Concept</span> { `${project.section_3.body }` }</p>
+              <br />
+              <p>{ `${project.section_3.body }` }</p>
             </div>
             <div className="col-sm-7">
               <div className="section-3-images">

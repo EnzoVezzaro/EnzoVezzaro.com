@@ -232,7 +232,7 @@
 .project .container-fluid #section_1 div:first-child{
   position: relative;
   left: -100px;
-  top: 50px;
+  top: 100px;
   z-index: 2;
 }
 

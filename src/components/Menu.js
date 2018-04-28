@@ -5,6 +5,7 @@ import {
   Link
 } from 'react-router-dom';
 import './Menu.css';
+import PDF from '../assets/Resume-ilovepdf-compressed.pdf';
 
 class Menu extends Component {
   constructor(props){
@@ -16,6 +17,7 @@ class Menu extends Component {
   }
 
   render() {
+
     return (
       <div>
         {/* box header */}
@@ -40,7 +42,8 @@ class Menu extends Component {
 
                 <li><a href="/">Projects</a> <i className="ion-ios-circle-filled color"></i></li>
                 <li><a href="/about-me">About me</a></li>
-                <li><a href="mailto:enzovezzaro05@gmail.com?Subject=Hello%20Enzo" target="_blank">contact me</a></li>
+                <li><a href="mailto:enzovezzaro05@gmail.com?Subject=Hello%20Enzo" target="_blank">Contact me</a></li>
+                <li><a href={PDF} target="_blank">Resume</a></li>
 
                 <li className="box-label">Follow me</li>
                 <div className='socialContainer'>

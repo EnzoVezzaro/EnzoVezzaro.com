@@ -1,6 +1,55 @@
 module.exports = {
   projects: [
     {
+      title: 'The Vapelife Store',
+      description: 'LA Finest online store',
+      body: 'They provide the best desk-top & portable vaporizers on the market today at a competitive price.',
+      client: 'Will Lemay',
+      section_1:{
+        title: 'Goal',
+        body: "Building an EASY-TO-USE e-store to promote a large range of vaporizers and accessories."
+      },
+      section_2:{
+        title: 'Maintenance Strategy.',
+        body: 'I was hired to improve the overall apperiance and performance of the website. My main goal was to implement new functionalities while improving the existing one.'
+      },
+      section_3:{
+        title: 'SEO Strategy.',
+        body: "The website needed a strong improvement in Search Engine Optimizations in order to scale the business. This have been done through a strong optimization in Google's / Yahoo's console paired with analytical data."
+      },
+      services:[
+        'Web Design',
+        'Web Development',
+        'Maintenance',
+        'E-Store integration',
+        'Social Media Campaign',
+      ],
+      technology:[
+        'SHOPIFY',
+        'CSS',
+        'JS',
+        'JQUERY',
+        'ANALYTICS',
+        'MAILCHIMP',
+        'GITHUB',
+      ],
+      images: {
+        introWindow: 'the-vapelife-store-window.png',
+        introPhone: 'the-vapelife-store-intro-phone.png',
+        section1Window: 'the-vapelife-store-section-1-window.png',
+        section2Window: 'test-phones-section-3.png',
+        section3Tablet: 'the-vapelife-store-section-4-tablet.png',
+        section3Phone: 'the-vapelife-store-section-4-phone.png',
+      },
+      thumbnail: 'the-vapelife-store.png',
+      keywords: {
+        main: 'Website',
+        secondary: 'E-commerce'
+      },
+      path: 'project/the-vapelife-store',
+      link: 'https://www.thevapelifestore.com/'
+    },
+    {
       title: 'Art Project United',
       description: 'Visual Art Exhibition',
       body: 'Art Project United is a visual art exhibition using social media challenging people and photographers both professional and amateur to set up, join together and their powerful images of people wearing the united tank top to show awareness concern us expressing our stories strength pride beauty history and that we are united.',
@@ -26,9 +75,10 @@ module.exports = {
       technology:[
         'HTML5',
         'CSS',
-        'JS / JQUERY',
+        'JS',
+        'JQUERY',
         'ANALYTICS',
-        'GITHUB PAGES',
+        'GITHUB',
       ],
       images: {
         introWindow: 'art-project-united-intro-window.png',
@@ -69,11 +119,10 @@ module.exports = {
         'Social Media Campaign',
       ],
       technology:[
-        'HTML5',
+        'WORDPRESS',
         'CSS',
-        'JS / JQUERY',
+        'JS',
         'ANALYTICS',
-        'GITHUB PAGES',
       ],
       images: {
         introWindow: 'cannalliance-intro-window.png',
@@ -116,9 +165,11 @@ module.exports = {
       technology:[
         'HTML5',
         'CSS',
-        'JS / JQUERY',
+        'JS',
+        'HUGO',
         'ANALYTICS',
-        'GITHUB PAGES',
+        'GITHUB',
+        'NETLIFY',
       ],
       images: {
         introWindow: 'insula-intro-window.png',
@@ -161,9 +212,11 @@ module.exports = {
       technology:[
         'HTML5',
         'CSS',
-        'JS / JQUERY',
+        'JS',
+        'JQUERY',
         'ANALYTICS',
-        'GITHUB PAGES',
+        'GITHUB',
+        'NETLIFY'
       ],
       images: {
         introWindow: 'larasante-intro-window.png',
@@ -206,9 +259,9 @@ module.exports = {
       technology:[
         'HTML5',
         'CSS',
-        'JS / JQUERY',
+        'JS',
         'ANALYTICS',
-        'GITHUB PAGES',
+        'GITHUB',
       ],
       images: {
         introWindow: 'eligetupresidente-intro-window.png',
@@ -250,9 +303,9 @@ module.exports = {
       technology:[
         'HTML5',
         'CSS',
-        'JS / JQUERY',
-        'ANALYTICS',
-        'GITHUB PAGES',
+        'JS',
+        'JQUERY',
+        'GITHUB',
       ],
       images: {
         introWindow: 'consoles-intro-window.png',
@@ -274,7 +327,7 @@ module.exports = {
       title: 'Yoox Net-A-Porter Group',
       description: 'E-commerce Component',
       body: 'YOOX NET-A-PORTER GROUP is the global Internet retailing partner for leading fashion & design brands. It has established itself amongst the market leaders with the multi-brand stores yoox.com, thecorner.com and shoescribe.com, as well as with numerous mono-brand online stores all “Powered by YNAP”. The Group has offices and operations in the United States, Europe, Japan, China and Hong Kong and delivers to more than 100 countries worldwide.',
-      client: 'Greg MacDonal',
+      client: '',
       section_1:{
         title: 'Detail Retina screen, Loupe resource.',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -294,9 +347,8 @@ module.exports = {
       technology:[
         'HTML5',
         'CSS',
-        'JS / JQUERY',
-        'ANALYTICS',
-        'GITHUB PAGES',
+        'JS',
+        'JQUERY',
       ],
       images: {
         introWindow: 'yoox-intro-window.png',
@@ -309,94 +361,10 @@ module.exports = {
       thumbnail: 'yoox.jpg',
       keywords: {
         main: 'Website',
-        secondary: 'Social Media'
+        secondary: 'E-commerce'
       },
       path: 'project/yoox-group',
       link: 'https://enzovezzaro.github.io/YOOX_production/'
     }
   ]
 };
-
-/*
-,
-{
-  title: 'Voces de la Calle',
-  description: 'Movie',
-  body: 'Dominican Film, now in premier in the United States, about the life and struggles of 3 friends trying to get ahead with their musical projects fighting for a better life and better future.',
-  client: 'Greg MacDonal',
-  section_1:{
-    title: 'Detail Retina screen, Loupe resource.',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  },
-  section_2:{
-    title: 'Introducing your UX platform.',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  },
-  section_3:{
-    title: 'Smart Phone and Tablet Responsive screens.',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  },
-  services:[
-    'HTML5',
-    'CSS',
-    'JS / JQUERY',
-    'ANALYTICS',
-    'GITHUB PAGES',
-  ],
-  images: {
-    introWindow: 'art-project-united-intro-window.png',
-    introPhone: 'art-project-united-intro-phone.png',
-    section1Window: 'art-project-united-section-1-window.png',
-    section2Window: 'test-phones-section-3.png',
-    section3Tablet: 'art-project-united-section-4-tablet.png',
-    section3Phone: 'art-project-united-section-3-phone.png',
-  },
-  thumbnail: 'voces-de-la-calle.jpg',
-  keywords: {
-    main: 'Website',
-    secondary: 'Social Media'
-  },
-  path: 'project/voces-de-la-calle',
-  link: 'http://vocesdelacalle.net/'
-},
-{
-  title: 'Vape Cloud Shop',
-  description: 'Vape Store',
-  body: 'E-commerce Vape Shop with big present in the Latin American Market. With more than 100 products online and hundreds of customers, Vape Cloud Shop built its audience overtime offering them great customer service and support.',
-  client: 'Greg MacDonal',
-  section_1:{
-    title: 'Detail Retina screen, Loupe resource.',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  },
-  section_2:{
-    title: 'Introducing your UX platform.',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  },
-  section_3:{
-    title: 'Smart Phone and Tablet Responsive screens.',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  },
-  services:[
-    'HTML5',
-    'CSS',
-    'JS / JQUERY',
-    'ANALYTICS',
-    'GITHUB PAGES',
-  ],
-  images: {
-    introWindow: 'art-project-united-intro-window.png',
-    introPhone: 'art-project-united-intro-phone.png',
-    section1Window: 'art-project-united-section-1-window.png',
-    section2Window: 'test-phones-section-3.png',
-    section3Tablet: 'art-project-united-section-4-tablet.png',
-    section3Phone: 'art-project-united-section-3-phone.png',
-  },
-  thumbnail: 'vape-cloud-shop.jpg',
-  keywords: {
-    main: 'E-commerce',
-    secondary: 'Sales'
-  },
-  path: 'project/vape-cloud-shop',
-  link: 'http://vapecloudshop.com/'
-}
-*/

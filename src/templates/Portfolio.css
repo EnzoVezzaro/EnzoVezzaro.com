@@ -165,11 +165,26 @@
   margin-bottom: 20px;
 }
 
+.project .top-bar .technology{
+  display: flex;
+  flex-direction: column;
+}
+
 .project .top-bar .services span, .project .top-bar .technology span{
   text-align: left;
   font-weight: bold;
   color: #00161F;
   padding-right: 5px;
+}
+
+.project .top-bar .technology .services-icons{
+  margin-top: 20px;
+}
+
+.project .top-bar .technology .services-icons .img-services{
+  width: auto;
+  height: 50px;
+  margin: 0px 10px 10px;
 }
 
 .project .top-bar .presentation{

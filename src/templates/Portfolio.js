@@ -67,12 +67,40 @@ class Portfolio extends Component {
                   </div>
                 </div>
                 <div className="col-sm-10">
-                  <div className="technology"><span>Technology. </span>
-                  {
-                    project.technology.map(function(technology, index){
-                     return <p key={`technology_${index}`}>{ `${technology},` }&nbsp;</p>
-                   })
-                  }
+                  <div className="technology">
+                    <span>Technology. </span>
+                    <div className='services-icons'>
+                      {
+                      project.technology.map(function(technology, index){
+                      {
+                          switch(technology) {
+                            case 'SHOPIFY':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/shopify.png`) } alt="Shopify" title='Shopify' className="img-services" />
+                            case 'WORDPRESS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/wordpress.png`) } alt="Wordpress" title='Wordpress' className="img-services" />
+                            case 'HTML5':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/html5.png`) } alt="HTML 5" title='HTML 5' className="img-services" />
+                            case 'CSS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/css3.png`) } alt="CSS 3" title='CSS 3' className="img-services" />
+                            case 'JS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/js.png`) } alt="Javascript" title='Javascript' className="img-services" />
+                            case 'JQUERY':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/jquery.png`) } alt="jquery" title='jquery' className="img-services" />
+                            case 'GITHUB':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.png`) } alt="Github" title='Github' className="img-services" />
+                            case 'ANALYTICS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/google-analytics.png`) } alt="Google Analytics" title='Google Analytics' className="img-services" />
+                            case 'MAILCHIMP':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/mailchimp.png`) } alt="Mailchimp" title='Mailchimp' className="img-services" />
+                            case 'HUGO':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/hugo.png`) } alt="Hugo" title='Hugo' className="img-services" />
+                            case 'NETLIFY':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/netlify.png`) } alt="Netlify" title='Netlify' className="img-services" />
+                          }
+                      }
+                    })
+                    }
+                    </div>
                   </div>
                 </div>
               </div>

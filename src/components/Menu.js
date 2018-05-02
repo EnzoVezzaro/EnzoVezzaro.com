@@ -47,14 +47,14 @@ class Menu extends Component {
 
                 <li className="box-label">Follow me</li>
                 <div className='socialContainer'>
-                  <li className="box-social"><a href="https://www.facebook.com/evezzaro"><i className="ion-social-facebook"></i></a></li>
-                  <li className="box-social"><a href="https://www.instagram.com/enzovezzaro/"><i className="ion-social-instagram-outline"></i></a></li>
+                  <li className="box-social"><a href="https://www.facebook.com/evezzaro" target='_blank'><i className="ion-social-facebook"></i></a></li>
+                  <li className="box-social"><a href="https://www.instagram.com/enzovezzaro/" target='_blank'><i className="ion-social-instagram-outline"></i></a></li>
                   <li className="box-social">
-                    <a href="https://medium.com/@insuladigitalstudio">
+                    <a href="https://medium.com/@insuladigitalstudio" target='_blank'>
                       <img src={require("../assets/img/medium.svg")} alt="Logo" />
                     </a>
                   </li>
-                  <li className="box-social"><a href="https://github.com/EnzoVezzaro"><i className="ion-social-github"></i></a></li>
+                  <li className="box-social"><a href="https://github.com/EnzoVezzaro" target='_blank'><i className="ion-social-github"></i></a></li>
                 </div>
             </ul>
         </nav>

@@ -64,7 +64,7 @@ module.exports = {
       },
       section_3:{
         title: 'UX / UI Strategy.',
-        body: 'My goal was to communicate efficiently a simple messaging while providing a simple-to-use interface.'
+        body: 'My goal was to communicate efficiently a simple messaging while providing a simple-to-use user interface.'
       },
       services:[
         'Web Design',
@@ -100,9 +100,9 @@ module.exports = {
       title: 'Cannalliance USA',
       description: 'Corporate Website',
       body: 'The CannAlliance USA is an advocacy and trade association of cannabis farmers, producers, manufacturers, patients, and responsible cannabis businesses that recognize the economic and medicinal value that cannabis culture has brought to California County.',
-      client: 'Greg MacDonal',
+      client: 'Joe Wong',
       section_1:{
-        title: 'Detail Retina screen, Loupe resource.',
+        title: 'Goal.',
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       },
       section_2:{

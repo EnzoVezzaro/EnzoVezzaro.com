@@ -58,12 +58,19 @@ class Portfolio extends Component {
               </div>
               <div className="col-sm-6 services">
                 <div className="col-sm-10">
-                  <div className="services"><span>Services. </span>
-                  {
-                    project.services.map(function(service, index){
-                     return <p key={`service_${index}`}>{ `${service},` }&nbsp;</p>
-                   })
-                  }
+                  <div className="services">
+                    <span>Services. </span>
+                    <div>
+                      {
+                        project.services.map(function(service, index){
+                          if (index < 2){
+                            return <p key={`service_${index}`}>{ `${service} -` }&nbsp;</p>
+                          } else {
+                            return <p key={`service_${index}`}>{ `${service}` }&nbsp;</p>
+                          }
+                      })
+                      }
+                    </div>
                   </div>
                 </div>
                 <div className="col-sm-10">
@@ -128,16 +135,19 @@ class Portfolio extends Component {
               </div>
             </div>
             <div className="col-sm-5 project-section-1-body">
+                {/*
                 <h2 className="section-1-title">01.</h2>
                 <h2 className="section-1-title">{ `${project.section_1.title}` }</h2>
                 <br />
                 <p><span className="bold-text" >Project Concept.</span> { `${project.section_1.body }` }</p>
+                */}
             </div>
           </div>
           {/*
             style={{ backgroundImage: `url(${section_2_Window})` }}
             <span className="bold-text" >Project Concept.</span>
           */}
+          {/*
           <div className="sections col-md-12" id="section_2" >
             <div className="col-md-7">
 
@@ -147,14 +157,18 @@ class Portfolio extends Component {
               <h2 className="section-1-title">{ `${project.section_2.title }` }</h2>
               <br />
               <p>{ `${project.section_2.body }` }</p>
+             
             </div>
           </div>
+          */}
           <div className="sections col-md-12" id="section_3">
             <div className="col-sm-5">
+              {/*
               <h2 className="section-1-title">03.</h2>
               <h2 className="section-1-title">{ `${project.section_3.title }` }</h2>
               <br />
               <p>{ `${project.section_3.body }` }</p>
+              */}
             </div>
             <div className="col-sm-7">
               <div className="section-3-images">

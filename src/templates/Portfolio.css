@@ -165,7 +165,7 @@
   margin-bottom: 20px;
 }
 
-.project .top-bar .technology{
+.project .top-bar .services, .project .top-bar .technology{
   display: flex;
   flex-direction: column;
 }
@@ -247,7 +247,7 @@
 .project .container-fluid #section_1 div:first-child{
   position: relative;
   left: -100px;
-  top: 100px;
+  top: 50px;
   z-index: 2;
 }
 

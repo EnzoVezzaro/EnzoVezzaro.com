@@ -5,7 +5,7 @@ import {
   Link
 } from 'react-router-dom';
 import './Menu.css';
-import PDF from '../assets/Resume-ilovepdf-compressed.pdf';
+import PDF from '../assets/Resume-compressed.pdf';
 
 class Menu extends Component {
   constructor(props){

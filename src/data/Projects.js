@@ -3,7 +3,7 @@ module.exports = {
     {
       title: 'The Vapelife Store',
       description: 'LA Finest online store',
-      body: 'They provide the best desk-top & portable vaporizers on the market today at a competitive price.',
+      body: 'They provide the best desktop & portable vaporizers on the market today at a competitive price.',
       client: 'Will Lemay',
       section_1:{
         title: 'Goal',
@@ -30,8 +30,7 @@ module.exports = {
         'JS',
         'JQUERY',
         'ANALYTICS',
-        'MAILCHIMP',
-        'GITHUB',
+        'MAILCHIMP'
       ],
       images: {
         introWindow: 'the-vapelife-store-window.png',

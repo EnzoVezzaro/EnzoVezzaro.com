@@ -61,7 +61,6 @@ class Projects extends Component {
                             key={index}
                             to={{
                               pathname: `/${project.path}`,
-                              // this is the trick!
                               state: { project: project }
                             }}
                             className="portfolio_item" style={ divStyle }>

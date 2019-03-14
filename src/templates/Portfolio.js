@@ -50,7 +50,12 @@ class Portfolio extends Component {
             <div className="row no-gutters project-hero-presentation">
               <div className="col-sm-6 presentation">
                 <div className="col-sm-10">
-                  <p className="presentation"><span>Project Presentation. </span>{ `${project.body}` }</p>
+                  <p className="presentation">
+                    <span>Project Presentation. </span>
+                    <div>
+                      { `${project.body}` }
+                    </div>
+                  </p>
                 </div>
                 <div className="col-sm-10">
                   <p className="presentation"><span>Link. </span><a href={ `${project.link}` } target="_blank" >{ `${project.link}` }</a></p>
@@ -103,6 +108,14 @@ class Portfolio extends Component {
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/hugo.png`) } alt="Hugo" title='Hugo' className="img-services" />
                             case 'NETLIFY':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/netlify.png`) } alt="Netlify" title='Netlify' className="img-services" />
+                            case 'REACTJS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/reactjs.png`) } alt="React JS" title='React JS' className="img-services" />
+                            case 'REACTNATIVE':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/reactnative.png`) } alt="React Native" title='React Native' className="img-services" />
+                            case 'AWS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/aws.png`) } alt="AWS" title='AWS' className="img-services" />
+                            case 'GOOGLEMAPS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/googlemaps.png`) } alt="Google Maps" title='Google Maps' className="img-services" />
                           }
                       }
                     })

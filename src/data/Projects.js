@@ -1,6 +1,54 @@
 module.exports = {
   projects: [
     {
+      title: 'Cigua App',
+      description: 'Travel with ease, experience authentic and local activities.',
+      body: 'be part of our community of open-minded people and enjoy traveling local, authentic, diverse, inclusive and sustainable.',
+      client: 'Cigua Team',
+      section_1:{
+        title: 'Goal',
+        body: "Building an EASY-TO-USE e-store to promote a large range of vaporizers and accessories."
+      },
+      section_2:{
+        title: 'Maintenance Strategy.',
+        body: 'I was hired to improve the overall apperiance and performance of the website. My main goal was to implement new functionalities while improving the existing one.'
+      },
+      section_3:{
+        title: 'SEO Strategy.',
+        body: "The website needed a strong improvement in Search Engine Optimizations in order to scale the business. This have been done through a strong optimization in Google's / Yahoo's console paired with analytical data."
+      },
+      services:[
+        'Web Development',
+        'App Development',
+        'Online Booking',
+        'Social Media Integration',
+        'Sharing Economy',
+      ],
+      technology:[
+        'REACTJS',
+        'REACTNATIVE',
+        'NETLIFY',
+        'AWS',
+        'GOOGLEMAPS',
+        'GITHUB'
+      ],
+      images: {
+        introWindow: 'cigua-intro-window.png',
+        introPhone: 'cigua-intro-phone.png',
+        section1Window: 'cigua-section-1-window.png',
+        section2Window: 'cigua-section-1-window.png',
+        section3Tablet: 'cigua-section-4-tablet.png',
+        section3Phone: 'cigua-section-3-phone.png',
+      },
+      thumbnail: 'cigua-app.png',
+      keywords: {
+        main: 'Website',
+        secondary: 'Mobile App'
+      },
+      path: 'project/cigua-app',
+      link: 'https://cigua.app'
+    },
+    {
       title: 'The Vapelife Store',
       description: 'LA Finest online store',
       body: 'They provide the best desktop & portable vaporizers on the market today at a competitive price.',

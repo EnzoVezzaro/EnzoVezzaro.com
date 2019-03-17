@@ -31,7 +31,7 @@ module.exports = {
         'GOOGLEMAPS',
         'GITHUB'
       ],
-      github_link:"none",
+      github_link:"",
       images: {
         introWindow: 'cigua-intro-window.png',
         introPhone: 'cigua-intro-phone.png',

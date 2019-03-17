@@ -8,6 +8,8 @@ import './Portfolio.css';
 import Menu from '../components/Menu.js';
 import Preloader from '../components/Preloader.js';
 
+import $ from 'jquery'; 
+
 class Portfolio extends Component {
   constructor(props){
     super(props);
@@ -99,7 +101,7 @@ class Portfolio extends Component {
                             case 'JQUERY':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/jquery.svg`) } alt="jquery" title='jquery' className="img-services" />
                             case 'GITHUB':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" />
+                              return project.github_link ? <a target="blank" href={`${project.github_link}`} ><img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" /></a> : <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" />
                             case 'ANALYTICS':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/google-analytics.svg`) } alt="Google Analytics" title='Google Analytics' className="img-services" />
                             case 'MAILCHIMP':

@@ -21,8 +21,7 @@ module.exports = {
         'Web Development',
         'App Development',
         'Online Booking',
-        'Social Media Integration',
-        'Sharing Economy',
+        'Social Media Integration'
       ],
       technology:[
         'REACTJS',
@@ -32,6 +31,7 @@ module.exports = {
         'GOOGLEMAPS',
         'GITHUB'
       ],
+      github_link:"none",
       images: {
         introWindow: 'cigua-intro-window.png',
         introPhone: 'cigua-intro-phone.png',
@@ -47,6 +47,50 @@ module.exports = {
       },
       path: 'project/cigua-app',
       link: 'https://cigua.app'
+    },{
+      title: 'Doggie Box',
+      description: 'Prof Of Concept (POC) for DoggieBox LLC. DoggieBox is a monthly subscription platform for toys and snacks for your dog.',
+      body: 'Prof Of Concept (POC) for DoggieBox LLC. DoggieBox is a monthly subscription platform for toys and snacks for your dog.',
+      client: 'DoggieBox LLC',
+      section_1:{
+        title: 'Goal',
+        body: "Building an EASY-TO-USE e-store to promote a large range of vaporizers and accessories."
+      },
+      section_2:{
+        title: 'Maintenance Strategy.',
+        body: 'I was hired to improve the overall apperiance and performance of the website. My main goal was to implement new functionalities while improving the existing one.'
+      },
+      section_3:{
+        title: 'SEO Strategy.',
+        body: "The website needed a strong improvement in Search Engine Optimizations in order to scale the business. This have been done through a strong optimization in Google's / Yahoo's console paired with analytical data."
+      },
+      services:[
+        'Web Development (POC)',
+        'Online Checkout',
+        'Social Media Integration'
+      ],
+      technology:[
+        'HUGO',
+        'FIREBASE',
+        'STRIPE',
+        'GITHUB'
+      ],
+      github_link:"https://github.com/EnzoVezzaro/doggybox.it",
+      images: {
+        introWindow: 'doggie-intro-window.png',
+        introPhone: 'doggie-intro-phone.png',
+        section1Window: 'doggie-section-1-window.png',
+        section2Window: 'doggie-section-1-window.png',
+        section3Tablet: 'doggie-section-4-tablet.png',
+        section3Phone: 'doggie-section-4-phone.png',
+      },
+      thumbnail: 'doggie-box.png',
+      keywords: {
+        main: 'Website',
+        secondary: 'Doggie Box (POC)'
+      },
+      path: 'project/dobbie-box',
+      link: 'https://doggybox-1e71a.firebaseapp.com/'
     },
     {
       title: 'The Vapelife Store',

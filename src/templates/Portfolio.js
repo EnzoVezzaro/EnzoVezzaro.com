@@ -60,7 +60,7 @@ class Portfolio extends Component {
                   </p>
                 </div>
                 <div className="col-sm-10">
-                  <p className="presentation"><span>Link. </span><a href={ `${project.link}` } target="_blank" >{ `${project.link}` }</a></p>
+                  <p className="presentation"><span>URL. </span><a href={ `${project.link}` } target="_blank" >{ `${project.link}` }</a></p>
                 </div>
               </div>
               <div className="col-sm-6 services">

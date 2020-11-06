@@ -1,86 +1,139 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   BrowserRouter as Router,
   Route,
   Redirect,
-  Link
-} from 'react-router-dom';
-import './Projects.css';
-import Portfolio from '../templates/Portfolio.js';
-var ProjectsData = require('../data/Projects');
+  Link,
+} from "react-router-dom";
+import "./Projects.css";
+import Portfolio from "../templates/Portfolio.js";
+import getTechIcons from '../utils/tech_icons';
+var ProjectsData = require("../data/Projects");
 
 class Projects extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
-      projects: ProjectsData.projects
-    }
+      projects: ProjectsData.projects,
+      allProjects: ProjectsData.projects,
+      techSelected: null
+    };
+  }
 
+  selectTech = (e) =>{
+    if (e){
+      let tech = e.currentTarget.id;
+      this.filterProjectByTech(tech);
+    } else {
+      this.setState({
+        projects: this.state.allProjects,
+        techSelected: e
+      })
+    }
+  }
+
+  filterProjectByTech = (tech) =>{
+    console.log(tech);
+    let newPojectsObj = [];
+    const { allProjects } = this.state;
+    allProjects.map(project=>{{
+      project.technology.map((techP, i) => {
+        if (techP == tech){
+          newPojectsObj.push(project);
+        }
+      })}
+    })
+    this.setState({
+      projects: newPojectsObj,
+      techSelected: tech
+    })
   }
 
   render() {
-    const projects = this.state.projects;
+    const { projects, techSelected } = this.state;
+
+    if (techSelected){
+      let icon = getTechIcons(techSelected);
+      var iconTech = require(`../assets/img/portfolio/services/${icon}`);
+      console.log(iconTech);
+    }
+    console.log(techSelected);
 
     if (!projects) {
-      return <Redirect to='/'/>;
+      return <Redirect to="/" />;
     }
 
     return (
       <div className="portfolio-div">
-          <div className="portfolio">
-              <div className="no-padding portfolio_container">
-                  {
-                    projects.map((project, index) => {
-                      let className = '';
-                      var imgUrl = require(`../assets/img/portfolio/${project.thumbnail}`);
-
-                      if (index == 2 || index == 5 || index == 8 || index == 11){
-                        className = 'col-md-6';
-                        var divStyle = {
-                            backgroundImage: 'url(' + imgUrl + ')',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat',
-                            width: '50vw',
-                            height: '50vw'
-                        }
-                      } else {
-                        className = 'col-md-3';
-                        var divStyle = {
-                            backgroundImage: 'url(' + imgUrl + ')',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat',
-                            width: '25vw',
-                            height: '25vw'
-                        }
-                      }
-
-                      return (
-                        <div className={`${className} logo`} key={ `project_${index}`}>
-                          <Link
-                            key={index}
-                            to={{
-                              pathname: `/${project.path}`,
-                              state: { project: project }
-                            }}
-                            className="portfolio_item" style={ divStyle }>
-
-                              <div className="portfolio_item_hover">
-                                  <div className="portfolio-border clearfix">
-                                      <div className="item_info">
-                                          <span>{ project.title }</span>
-                                          <em>{ project.keywords.main } / { project.keywords.secondary }</em>
-                                      </div>
-                                  </div>
-                              </div>
-                          </Link>
-                        </div>
-                      )
-                    })
-                  }
+        <div className="portfolio">
+          {projects.map((project, index) => {
+            var imgUrl = require(`../assets/img/portfolio/${project.thumbnail}`);
+            var divStyleImg = {
+              backgroundImage: "url(" + imgUrl + ")",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              height: "200px",
+            };
+            return (
+              <div className="portfolio_item" key={`portfolio_item_${index}`}>
+                <div className="portfolio_item_content">
+                  <Link
+                    to={{
+                      pathname: `/${project.path}`,
+                      state: { project: project },
+                    }}
+                  >
+                    <div className="item_image" style={divStyleImg}></div>
+                  </Link>
+                  <div className="item_info_container">
+                    <div className="item_info">
+                      <h3>{project.title}</h3>
+                      <em>
+                        {project.keywords.main} / {project.keywords.secondary}
+                      </em>
+                    </div>
+                    <div className="divider"></div>
+                  </div>
+                  <div className="services"> 
+                    {
+                      project.technology.map((tech, i) => {
+                        let icon = getTechIcons(tech);
+                        var iconTech = require(`../assets/img/portfolio/services/${icon}`);
+                        return(
+                          <img key={`img_${i}`} src={ iconTech } alt={tech} title={tech} id={tech} onClick={(e)=>{this.selectTech(e)}} className="items-img-services" />
+                        )
+                      })
+                    }
+                  </div>
+                  <div className="item_footer">
+                    <Link
+                      to={{
+                        pathname: `/${project.path}`,
+                        state: { project: project },
+                      }}
+                    >
+                      See Project
+                    </Link>
+                  </div>
+                </div>
               </div>
-          </div>
-          {/* portfolio */}
+            );
+          })}
+        </div>
+        <div className="icons-selected">
+          {
+            techSelected && 
+            <div>
+              <img src={ iconTech } alt={techSelected} title={techSelected} id={techSelected} onClick={(e)=>{this.selectTech(e)}} className="items-img-services" />
+              <div className={'icons-remove'}>
+                <img onClick={(e)=>{this.selectTech(null)}} src={ require(`../assets/img/icons/remove.svg`) } />
+              </div>
+            </div>
+          }
+        </div>
+        {/* portfolio */}
       </div>
     );
   }

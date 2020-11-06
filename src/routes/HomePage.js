@@ -56,7 +56,7 @@ class HomePage extends Component {
         {/* footer */}
         <footer>
             <div className="container-fluid">
-                <p className="copyright">© Enzo Portfolio 2018</p>
+                <p className="copyright">2020 © Enzo Vezzaro's Portfolio</p>
             </div>
         </footer>
         {/* end footer */}

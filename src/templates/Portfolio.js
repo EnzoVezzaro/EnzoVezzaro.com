@@ -45,6 +45,13 @@ class Portfolio extends Component {
         {/* top-bar */}
         <div className="top-bar" style={{ backgroundImage: `url(../assets/img/portfolio/${project.images.introWindow})` }}>
           <div className="container">
+            <div className="col-sm-12">
+              <div className="go-back">
+                <a href="/">
+                  <img src={ require(`../assets/img/icons/left-arrow.svg`) } />
+                </a>
+              </div>
+            </div>
             <div className="col-sm-12 project-intro-hero">
               <h1>{ project.title }</h1>
               <p>{ project.keywords.main } / { project.keywords.secondary }</p>
@@ -54,9 +61,7 @@ class Portfolio extends Component {
                 <div className="col-sm-10">
                   <p className="presentation">
                     <span>Project Presentation. </span>
-                    <div>
-                      { `${project.body}` }
-                    </div>
+                    { `${project.body}` }
                   </p>
                 </div>
                 <div className="col-sm-10">
@@ -82,7 +87,7 @@ class Portfolio extends Component {
                 </div>
                 <div className="col-sm-10">
                   <div className="technology">
-                    <span>Technology. </span>
+                    <span>Technology Stack. </span>
                     <div className='services-icons'>
                       {
                       project.technology.map(function(technology, index){
@@ -101,7 +106,7 @@ class Portfolio extends Component {
                             case 'JQUERY':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/jquery.svg`) } alt="jquery" title='jquery' className="img-services" />
                             case 'GITHUB':
-                              return project.github_link ? <a target="blank" href={`${project.github_link}`} ><img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" /></a> : <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" />
+                              return project.github_link ? <a key={`technology_${index}`} target="blank" href={`${project.github_link}`} ><img src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" /></a> : <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" />
                             case 'ANALYTICS':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/google-analytics.svg`) } alt="Google Analytics" title='Google Analytics' className="img-services" />
                             case 'MAILCHIMP':
@@ -148,70 +153,9 @@ class Portfolio extends Component {
         {/* main-container */}
         <div className="container-fluid main-container ">
           <div className="sections col-md-12" id="section_1" >
-            <div className="col-sm-7 project-section-1-window">
-              <div>
-                <img src={ require(`../assets/img/portfolio/${project.images.section1Window}`) } alt="" className="img-responsive drop-shadow" />
-              </div>
-            </div>
-            <div className="col-sm-5 project-section-1-body">
-                {/*
-                <h2 className="section-1-title">01.</h2>
-                <h2 className="section-1-title">{ `${project.section_1.title}` }</h2>
-                <br />
-                <p><span className="bold-text" >Project Concept.</span> { `${project.section_1.body }` }</p>
-                */}
-            </div>
-          </div>
-          {/*
-            style={{ backgroundImage: `url(${section_2_Window})` }}
-            <span className="bold-text" >Project Concept.</span>
-          */}
-          {/*
-          <div className="sections col-md-12" id="section_2" >
-            <div className="col-md-7">
-
-            </div>
-            <div className="col-md-5">
-              <h2 className="section-1-title">02.</h2>
-              <h2 className="section-1-title">{ `${project.section_2.title }` }</h2>
-              <br />
-              <p>{ `${project.section_2.body }` }</p>
-             
-            </div>
-          </div>
-          */}
-          <div className="sections col-md-12" id="section_3">
-            <div className="col-sm-5">
-              {/*
-              <h2 className="section-1-title">03.</h2>
-              <h2 className="section-1-title">{ `${project.section_3.title }` }</h2>
-              <br />
-              <p>{ `${project.section_3.body }` }</p>
-              */}
-            </div>
-            <div className="col-sm-7">
-              <div className="section-3-images">
-                <img src={ require(`../assets/img/portfolio/${project.images.section3Phone}`) } alt="" className="img-responsive drop-shadow" />
-                <img src={ require(`../assets/img/portfolio/${project.images.section3Tablet}`) } alt="" className="img-responsive drop-shadow" />
-              </div>
-            </div>
+            
           </div>
         </div>
-        {/* end main-container */}
-
-
-        {/* footer */}
-        <footer className='footer-project'>
-            <div className="container-fluid">
-
-            </div>
-        </footer>
-        {/* end footer */}
-
-        {/* back to top
-        <a href="#0" className="cd-top"><i className="ion-android-arrow-up"></i></a>
-        */}
-        {/* end back to top */}
 
       </div>
     );

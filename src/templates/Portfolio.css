@@ -1,6 +1,9 @@
 
 /* portfolio section
 ==================================================*/
+.go-back{
+  width: 40px;
+}
 
 .portfolio .categories-grid span {
     font-size: 30px;
@@ -236,7 +239,7 @@
 }
 
 .project .container-fluid #section_1{
-  height: 750px;
+  height: 450px;
   background-color: #001620;
   padding-top: 20vw;
 }
@@ -324,7 +327,7 @@
 
 @media only screen and (max-width: 1024px) {
   .project .container-fluid #section_1{
-    margin-bottom: -50px !important;
+    height: 350px;
   }
   .project .container-fluid #section_1 div:first-child{
     top: 0 !important;
@@ -333,8 +336,11 @@
 
 @media only screen and (max-width: 768px) {
     .portfolio_item {
-        width: 50vw !important;
-        height: 50vw !important;
+      width: 100vw !important;
+      height: auto;
+    }
+    .project .container-fluid #section_1{
+      height: 250px;
     }
     .project .container-fluid #section_2 {
       background-position: -170px 60px;
@@ -352,7 +358,7 @@
     padding-bottom: 0;
   }
   .project .container-fluid #section_1 {
-    height: auto !important;
+    height: 300px !important;
   }
   .project .container-fluid #section_1 div {
     left: 0 !important;

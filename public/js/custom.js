@@ -8,7 +8,7 @@ $(window).load(function () {
 
 
     //  isotope
-    var $container = $('.portfolio_container');
+    var $container = $('.portfolio_container_');
     $container.isotope({
         filter: '*',
     });

@@ -1,6 +1,52 @@
 module.exports = {
   projects: [
     {
+      title: 'Aletheia Data',
+      description: 'Our mission is to democratize public information and facilitate access to it.',
+      body: 'Aletheia is a citizen effort project that seeks to encourage both public and private entities to facilitate access to public information.',
+      client: 'Aletheia ORG',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Cloud Architecture',
+        'Web Development',
+        'Open Source',
+        'Branding'
+      ],
+      technology:[
+        'REACTJS',
+        'NETLIFY',
+        'AWS',
+        'SERVERLESS',
+        'GITHUB'
+      ],
+      github_link:"",
+      images: {
+        introWindow: 'aletheia-intro-window.png',
+        introPhone: 'aletheia-intro-phone.png',
+        section1Window: 'aletheia-intro-window.png',
+        section2Window: 'aletheia-intro-window.png',
+        section3Tablet: 'aletheia-intro-window.png',
+        section3Phone: 'aletheia-intro-phone.png',
+      },
+      thumbnail: 'aletheia-data.png',
+      keywords: {
+        main: 'Cloud Architecture',
+        secondary: 'Web App'
+      },
+      path: 'project/aletheia-data',
+      link: 'https://aletheiadata.org'
+    },{
       title: 'Cigua App',
       description: 'Travel with ease, experience authentic and local activities.',
       body: 'be part of our community of open-minded people and enjoy traveling local, authentic, diverse, inclusive and sustainable.',

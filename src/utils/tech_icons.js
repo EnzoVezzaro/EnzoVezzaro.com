@@ -32,6 +32,8 @@ let getTechIcons = function getTechIcons(tech) {
           return `googlemaps.svg`
         case 'FIREBASE':
           return `firebase.svg`
+        case 'SERVERLESS':
+          return `serverless.png`
         case 'STRIPE':
           return `stripe.svg`
       }

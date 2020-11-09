@@ -125,6 +125,8 @@ class Portfolio extends Component {
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/googlemaps.svg`) } alt="Google Maps" title='Google Maps' className="img-services" />
                             case 'FIREBASE':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/firebase.svg`) } alt="Firebase" title='Firebase' className="img-services" />
+                            case 'SERVERLESS':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/serverless.png`) } alt="Serverless" title='Serverless' className="img-services" />
                             case 'STRIPE':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/stripe.svg`) } alt="Stripe" title='Stripe' className="img-services" />
                           }

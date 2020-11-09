@@ -90,6 +90,10 @@
                 drop-shadow(-2px -2px 0 white);
 }
 
+.portfolio-div .icons-selected .icons-remove{
+    cursor: pointer;
+}
+
 .portfolio-div .icons-selected .icons-remove img{
     position: absolute;
     top: -20px;

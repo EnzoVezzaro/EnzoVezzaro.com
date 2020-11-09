@@ -20,8 +20,7 @@ module.exports = {
       services:[
         'Cloud Architecture',
         'Web Development',
-        'Open Source',
-        'Branding'
+        'Open Source'
       ],
       technology:[
         'REACTJS',

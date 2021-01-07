@@ -3,6 +3,7 @@
 ==================================================*/
 .go-back{
   width: 40px;
+  cursor: pointer;
 }
 
 .portfolio .categories-grid span {

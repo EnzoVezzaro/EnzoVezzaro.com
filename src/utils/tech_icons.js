@@ -36,6 +36,10 @@ let getTechIcons = function getTechIcons(tech) {
           return `serverless.png`
         case 'STRIPE':
           return `stripe.svg`
+        case 'KEPLERGL':
+          return `kepler.svg`
+        case 'ELASTIC_SEARCH':
+          return `elasticsearch.png`
       }
   }
   

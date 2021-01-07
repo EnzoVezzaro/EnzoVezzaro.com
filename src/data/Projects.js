@@ -1,6 +1,94 @@
 module.exports = {
   projects: [
     {
+      title: 'Aletheia Data - Maps',
+      description: 'Aletheia is a citizen effort project that seeks to encourage both public and private entities to facilitate access to public information.',
+      body: 'This map was created to facilitate the visualization of the data from the 2020 Elections in the Dominican Republic.',
+      client: 'Aletheia ORG',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Web Development',
+        'Geospatial Development',
+        'Open Source'
+      ],
+      technology:[
+        'REACTJS',
+        'KEPLERGL',
+        'NETLIFY',
+        'GITHUB'
+      ],
+      github_link:"https://github.com/EnzoVezzaro/map.aletheiadata.org",
+      images: {
+        introWindow: 'map-aletheiadata.png',
+        introPhone: '',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'map-aletheiadata-thumb.png',
+      keywords: {
+        main: 'Geospatial Development',
+        secondary: 'Web App'
+      },
+      path: 'project/aletheia-data-maps',
+      link: 'https://map.aletheiadata.org'
+    },{
+      title: 'Aletheia Data - Search',
+      description: 'Our mission is to democratize public information and facilitate access to it.',
+      body: 'Aletheia is a citizen effort project that seeks to encourage both public and private entities to facilitate access to public information.',
+      client: 'Aletheia ORG',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Cloud Development',
+        'Web Development',
+        'Open Source'
+      ],
+      technology:[
+        'REACTJS',
+        'ELASTIC_SEARCH',
+        'NETLIFY',
+        'GITHUB'
+      ],
+      github_link:"",
+      images: {
+        introWindow: 'search-aletheiadata.png',
+        introPhone: 'search-aletheiadata-mobile.png',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'search-aletheiadata-thumb.png',
+      keywords: {
+        main: 'Cloud Elastic Search',
+        secondary: 'Web App'
+      },
+      path: 'project/aletheia-data-search',
+      link: 'https://search.aletheiadata.org'
+    },{
       title: 'Aletheia Data',
       description: 'Our mission is to democratize public information and facilitate access to it.',
       body: 'Aletheia is a citizen effort project that seeks to encourage both public and private entities to facilitate access to public information.',
@@ -45,6 +133,52 @@ module.exports = {
       },
       path: 'project/aletheia-data',
       link: 'https://aletheiadata.org'
+    },{
+      title: 'Despertò RD',
+      description: 'Our mission is to democratize public information and facilitate access to it.',
+      body: 'Despertò RD served as a website CTA for political activism.',
+      client: 'Dominican People',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Social Media Integration',
+        'Web Development',
+        'Open Source'
+      ],
+      technology:[
+        'REACTJS',
+        'NETLIFY',
+        'HTML5',
+        'CSS',
+        'JS',
+        'GITHUB'
+      ],
+      github_link:"",
+      images: {
+        introWindow: 'despertord.png',
+        introPhone: '',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'despertord.png',
+      keywords: {
+        main: 'Social Media Integration',
+        secondary: 'Website'
+      },
+      path: 'project/desperto-rd',
+      link: 'https://www.despertord.com/'
     },{
       title: 'Cigua App',
       description: 'Travel with ease, experience authentic and local activities.',

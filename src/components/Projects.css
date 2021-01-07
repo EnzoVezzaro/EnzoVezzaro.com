@@ -39,7 +39,7 @@
 
 .portfolio_item_content .services img{
     width: 35px;
-    height: 50px;
+    height: auto;
     margin-right: 5px;
     cursor: pointer;
 }

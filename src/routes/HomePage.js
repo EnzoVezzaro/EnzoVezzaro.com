@@ -8,6 +8,7 @@ import {
 import Menu from '../components/Menu.js';
 import Preloader from '../components/Preloader.js';
 import Projects from '../components/Projects.js';
+import {Helmet} from "react-helmet";
 
 
 class HomePage extends Component {
@@ -24,10 +25,9 @@ class HomePage extends Component {
   }
 
   render() {
+    
     return (
       <div>
-
-        <Preloader />
 
         <div className="container-fluid">
 
@@ -65,7 +65,9 @@ class HomePage extends Component {
         <a href="#0" className="cd-top"><i className="ion-android-arrow-up"></i></a>
         */}
         {/* end back to top */}
-
+        <Helmet>
+          <script src="./js/animated-headline.js"></script>
+        </Helmet>
 
       </div>
     );

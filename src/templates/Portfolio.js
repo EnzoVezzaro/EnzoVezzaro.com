@@ -36,18 +36,18 @@ class Portfolio extends Component {
 
   render() {
     const {project} = this.state;
-    const section_2_Window = require(`../assets/img/portfolio/${project.images.section2Window}`);
+    if (project.images.section2Window){
+      const section_2_Window = require(`../assets/img/portfolio/${project.images.section2Window}`);
+    }
     return (
       <div className="project">
-
-        <Preloader />
 
         {/* top-bar */}
         <div className="top-bar" style={{ backgroundImage: `url(../assets/img/portfolio/${project.images.introWindow})` }}>
           <div className="container">
             <div className="col-sm-12">
               <div className="go-back">
-                <a href="/">
+                <a onClick={()=>this.props.history.goBack()}>
                   <img src={ require(`../assets/img/icons/left-arrow.svg`) } />
                 </a>
               </div>
@@ -129,6 +129,10 @@ class Portfolio extends Component {
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/serverless.png`) } alt="Serverless" title='Serverless' className="img-services" />
                             case 'STRIPE':
                               return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/stripe.svg`) } alt="Stripe" title='Stripe' className="img-services" />
+                            case 'KEPLERGL':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/kepler.png`) } alt="Kepler.gl" title='Kepler.gl' className="img-services" />
+                            case 'ELASTIC_SEARCH':
+                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/elasticsearch.png`) } alt="Elastic Search" title='Elastic Search' className="img-services" />
                           }
                       }
                     })
@@ -140,14 +144,20 @@ class Portfolio extends Component {
             </div>
           </div>
           <div className="container">
-            <div className="col-sm-12 project-hero-window">
-              <img src={ require(`../assets/img/portfolio/${project.images.introWindow}`) } alt="" className="img-responsive drop-shadow" />
-            </div>
-            <div className="col-sm-12 project-hero-phone">
-              <div>
-                <img src={ require(`../assets/img/portfolio/${project.images.introPhone}`) } alt="" className="img-responsive drop-shadow" />
+            {
+              project.images.introWindow &&
+              <div className="col-sm-12 project-hero-window">
+                <img src={ require(`../assets/img/portfolio/${project.images.introWindow}`) } alt="" className="img-responsive drop-shadow" />
               </div>
-            </div>
+            }
+            {
+              project.images.introPhone &&
+              <div className="col-sm-12 project-hero-phone">
+                <div>
+                  <img src={ require(`../assets/img/portfolio/${project.images.introPhone}`) } alt="" className="img-responsive drop-shadow" />
+                </div>
+              </div>
+            }
           </div>
         </div>
         {/* end top-bar */}

@@ -55,7 +55,7 @@ class Projects extends Component {
 
     if (techSelected){
       let icon = getTechIcons(techSelected);
-      var iconTech = require(`../assets/img/portfolio/services/${icon}`);
+      var iconTech = require(`../assets/img/portfolio/services/${icon}`).default;
       console.log(iconTech);
     }
     console.log(techSelected);
@@ -68,7 +68,7 @@ class Projects extends Component {
       <div className="portfolio-div">
         <div className="portfolio">
           {projects.map((project, index) => {
-            var imgUrl = require(`../assets/img/portfolio/${project.thumbnail}`);
+            var imgUrl = require(`../assets/img/portfolio/${project.thumbnail}`).default;
             var divStyleImg = {
               backgroundImage: "url(" + imgUrl + ")",
               backgroundSize: "cover",
@@ -100,7 +100,7 @@ class Projects extends Component {
                     {
                       project.technology.map((tech, i) => {
                         let icon = getTechIcons(tech);
-                        var iconTech = require(`../assets/img/portfolio/services/${icon}`);
+                        var iconTech = require(`../assets/img/portfolio/services/${icon}`).default;
                         return(
                           <img key={`img_${i}`} src={ iconTech } alt={tech} title={tech} id={tech} onClick={(e)=>{this.selectTech(e)}} className="items-img-services" />
                         )
@@ -128,7 +128,7 @@ class Projects extends Component {
             <div>
               <img src={ iconTech } alt={techSelected} title={techSelected} id={techSelected} onClick={(e)=>{this.selectTech(e)}} className="items-img-services" />
               <div className={'icons-remove'}>
-                <img onClick={(e)=>{this.selectTech(null)}} src={ require(`../assets/img/icons/remove.svg`) } />
+                <img onClick={(e)=>{this.selectTech(null)}} src={ require(`../assets/img/icons/remove.svg`).default } />
               </div>
             </div>
           }

@@ -1,7 +1,136 @@
 module.exports = {
   projects: [
     {
-      title: 'Aletheia Data - Maps',
+      title: 'Tu Diario RD',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet molestie metus. Praesent mattis, tortor in vestibulum varius, nisi justo cursus nunc, ac porta metus metus sit amet justo.',
+      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet molestie metus.',
+      client: 'Hans Garcia',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: "" 
+      },
+      services:[
+        'Web Development',
+        'Theme Customization',
+        'Web Services'
+      ],
+      technology:[
+        'WORDPRESS',
+        'GODADDY'
+      ],
+      github_link:"-",
+      images: {
+        introWindow: 'tu-diario-rd-desktop.png',
+        introPhone: 'tu-diario-rd-mobile.png',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'tu-diario-rd-thumb.png',
+      keywords: {
+        main: 'Wordpress Development',
+        secondary: 'Web App'
+      },
+      path: 'project/tu-diario-rd',
+      link: 'http://tudiariord.com/'
+    },{
+      title: 'RedCannabica RD - Website',
+      description: 'Red Cannábica es un colectivo que tiene como misión la educación, desarrollo e impulso de políticas publicas para el acceso a la planta de cannabis para uso medicinal, uso industrial, uso adulto e investigación científica en la República Dominicana.',
+      body: 'Somos una comunidad de Dominicanos que buscamos incidir en el proceso regulatorio de la cannabis en Republica Dominicana para el desarrollo y fortalecimiento de la sociedad civil.',
+      client: 'RedCannabica RD',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Web Development',
+        'Web Design'
+      ],
+      technology:[
+        'GULP',
+        'PUG',
+        'NETLIFY',
+        'GITHUB'
+      ],
+      github_link:"https://github.com/legalizemoslard/redcannabicard",
+      images: {
+        introWindow: 'red-cannabica-rd-desktop.png',
+        introPhone: 'red-cannabica-rd-mobile.png',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'red-cannabica-rd-desktop.png',
+      keywords: {
+        main: 'Web Development',
+        secondary: 'Website'
+      },
+      path: 'project/red-cannabica-rd',
+      link: 'https://www.redcannabicard.org/'
+    },{
+      title: 'RedCannabica RD - Platform',
+      description: 'Red Cannábica es un colectivo que tiene como misión la educación, desarrollo e impulso de políticas publicas para el acceso a la planta de cannabis para uso medicinal, uso industrial, uso adulto e investigación científica en la República Dominicana.',
+      body: 'Somos una comunidad de Dominicanos que buscamos incidir en el proceso regulatorio de la cannabis en Republica Dominicana para el desarrollo y fortalecimiento de la sociedad civil.',
+      client: 'Colectivo RedCannabica RD',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Web Development',
+        'Cloud Development',
+        'Open Source'
+      ],
+      technology:[
+        'REACTJS',
+        'CITIZENLAB',
+        'DIGITALOCEAN',
+        'GITHUB'
+      ],
+      github_link:"https://github.com/legalizemoslard/legislemos",
+      images: {
+        introWindow: 'red-cannabica-rd-platform-desktop.png',
+        introPhone: '',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'red-cannabica-rd-platform-desktop.png',
+      keywords: {
+        main: 'Web Development',
+        secondary: 'Web App'
+      },
+      path: 'project/red-cannabica-rd-platform',
+      link: 'http://redcannabica.info/es-ES/'
+    },{
+      title: 'Aletheia Data - Hep',
       description: 'Aletheia is a citizen effort project that seeks to encourage both public and private entities to facilitate access to public information.',
       body: 'This map was created to facilitate the visualization of the data from the 2020 Elections in the Dominican Republic.',
       client: 'Aletheia ORG',
@@ -19,31 +148,31 @@ module.exports = {
       },
       services:[
         'Web Development',
-        'Geospatial Development',
+        'Web Design',
         'Open Source'
       ],
       technology:[
         'REACTJS',
-        'KEPLERGL',
-        'NETLIFY',
+        'IPFS',
+        'FLEEK',
         'GITHUB'
       ],
-      github_link:"https://github.com/EnzoVezzaro/map.aletheiadata.org",
+      github_link:"https://github.com/Aletheia-Data/heptastadion.aletheiadata.org",
       images: {
-        introWindow: 'map-aletheiadata.png',
+        introWindow: 'aletheia-data.png',
         introPhone: '',
         section1Window: '',
         section2Window: '',
         section3Tablet: '',
         section3Phone: '',
       },
-      thumbnail: 'map-aletheiadata-thumb.png',
+      thumbnail: 'aletheia-data.png',
       keywords: {
-        main: 'Geospatial Development',
-        secondary: 'Web App'
+        main: 'Web App',
+        secondary: 'Decentralization'
       },
-      path: 'project/aletheia-data-maps',
-      link: 'https://map.aletheiadata.org'
+      path: 'project/aletheia-data-hep',
+      link: 'https://hep.aletheiadata.org'
     },{
       title: 'Aletheia Data - Search',
       description: 'Our mission is to democratize public information and facilitate access to it.',

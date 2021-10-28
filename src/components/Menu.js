@@ -51,7 +51,7 @@ class Menu extends Component {
                   <li className="box-social"><a href="https://www.instagram.com/enzovezzaro/" target='_blank'><i className="ion-social-instagram-outline"></i></a></li>
                   <li className="box-social">
                     <a href="https://medium.com/@insuladigitalstudio" target='_blank'>
-                      <img src={require("../assets/img/medium.svg")} alt="Logo" />
+                      <img src={require("../assets/img/medium.svg").default} alt="Logo" />
                     </a>
                   </li>
                   <li className="box-social"><a href="https://github.com/EnzoVezzaro" target='_blank'><i className="ion-social-github"></i></a></li>

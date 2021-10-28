@@ -7,7 +7,7 @@ import {
 import './Portfolio.css';
 import Menu from '../components/Menu.js';
 import Preloader from '../components/Preloader.js';
-
+import getTechIcons from '../utils/tech_icons';
 import $ from 'jquery'; 
 
 class Portfolio extends Component {
@@ -37,7 +37,7 @@ class Portfolio extends Component {
   render() {
     const {project} = this.state;
     if (project.images.section2Window){
-      const section_2_Window = require(`../assets/img/portfolio/${project.images.section2Window}`);
+      const section_2_Window = require(`../assets/img/portfolio/${project.images.section2Window}`).default;
     }
     return (
       <div className="project">
@@ -48,7 +48,7 @@ class Portfolio extends Component {
             <div className="col-sm-12">
               <div className="go-back">
                 <a onClick={()=>this.props.history.goBack()}>
-                  <img src={ require(`../assets/img/icons/left-arrow.svg`) } />
+                  <img src={ require(`../assets/img/icons/left-arrow.svg`).default } />
                 </a>
               </div>
             </div>
@@ -92,48 +92,10 @@ class Portfolio extends Component {
                       {
                       project.technology.map(function(technology, index){
                       {
-                          switch(technology) {
-                            case 'SHOPIFY':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/shopify.svg`) } alt="Shopify" title='Shopify' className="img-services" />
-                            case 'WORDPRESS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/wordpress.svg`) } alt="Wordpress" title='Wordpress' className="img-services" />
-                            case 'HTML5':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/html5.svg`) } alt="HTML 5" title='HTML 5' className="img-services" />
-                            case 'CSS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/css3.svg`) } alt="CSS 3" title='CSS 3' className="img-services" />
-                            case 'JS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/js.svg`) } alt="Javascript" title='Javascript' className="img-services" />
-                            case 'JQUERY':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/jquery.svg`) } alt="jquery" title='jquery' className="img-services" />
-                            case 'GITHUB':
-                              return project.github_link ? <a key={`technology_${index}`} target="blank" href={`${project.github_link}`} ><img src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" /></a> : <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/github.svg`) } alt="Github" title='Github' className="img-services" />
-                            case 'ANALYTICS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/google-analytics.svg`) } alt="Google Analytics" title='Google Analytics' className="img-services" />
-                            case 'MAILCHIMP':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/mailchimp.svg`) } alt="Mailchimp" title='Mailchimp' className="img-services" />
-                            case 'HUGO':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/hugo.svg`) } alt="Hugo" title='Hugo' className="img-services" />
-                            case 'NETLIFY':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/netlify.svg`) } alt="Netlify" title='Netlify' className="img-services" />
-                            case 'REACTJS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/reactjs.svg`) } alt="React JS" title='React JS' className="img-services" />
-                            case 'REACTNATIVE':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/reactnative.svg`) } alt="React Native" title='React Native' className="img-services" />
-                            case 'AWS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/aws.svg`) } alt="AWS" title='AWS' className="img-services" />
-                            case 'GOOGLEMAPS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/googlemaps.svg`) } alt="Google Maps" title='Google Maps' className="img-services" />
-                            case 'FIREBASE':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/firebase.svg`) } alt="Firebase" title='Firebase' className="img-services" />
-                            case 'SERVERLESS':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/serverless.png`) } alt="Serverless" title='Serverless' className="img-services" />
-                            case 'STRIPE':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/stripe.svg`) } alt="Stripe" title='Stripe' className="img-services" />
-                            case 'KEPLERGL':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/kepler.png`) } alt="Kepler.gl" title='Kepler.gl' className="img-services" />
-                            case 'ELASTIC_SEARCH':
-                              return <img key={`technology_${index}`} src={ require(`../assets/img/portfolio/services/elasticsearch.png`) } alt="Elastic Search" title='Elastic Search' className="img-services" />
-                          }
+                          let icon = getTechIcons(technology);
+                          var iconTech = require(`../assets/img/portfolio/services/${icon}`).default;
+                          console.log(iconTech);
+                          return <img key={`technology_${index}`} src={ iconTech } alt={technology} title={technology} className="img-services" />;
                       }
                     })
                     }
@@ -147,14 +109,14 @@ class Portfolio extends Component {
             {
               project.images.introWindow &&
               <div className="col-sm-12 project-hero-window">
-                <img src={ require(`../assets/img/portfolio/${project.images.introWindow}`) } alt="" className="img-responsive drop-shadow" />
+                <img src={ require(`../assets/img/portfolio/${project.images.introWindow}`).default } alt="" className="img-responsive drop-shadow" />
               </div>
             }
             {
               project.images.introPhone &&
               <div className="col-sm-12 project-hero-phone">
                 <div>
-                  <img src={ require(`../assets/img/portfolio/${project.images.introPhone}`) } alt="" className="img-responsive drop-shadow" />
+                  <img src={ require(`../assets/img/portfolio/${project.images.introPhone}`).default } alt="" className="img-responsive drop-shadow" />
                 </div>
               </div>
             }

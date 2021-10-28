@@ -11,7 +11,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div className='about-me-container' style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
-        <img src={require("../assets/img/under-development.svg")} height='500' alt="under development" />
+        <img src={require("../assets/img/under-development.svg").default} height='500' alt="under development" />
       </div>
     );
   }

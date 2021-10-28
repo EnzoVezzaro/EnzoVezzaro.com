@@ -40,6 +40,22 @@ let getTechIcons = function getTechIcons(tech) {
           return `kepler.svg`
         case 'ELASTIC_SEARCH':
           return `elasticsearch.png`
+        case 'FLEEK':
+          return `fleek.png`
+        case 'IPFS':
+          return `ipfs.png`
+        case 'CITIZENLAB':
+          return `citizenlab.png`
+        case 'DIGITALOCEAN':
+          return `digitalocean.svg`
+        case 'GULP':
+          return `gulp.png`
+        case 'PUG':
+          return `pugjs.svg`
+        case 'GODADDY':
+          return `godaddy.png`
+        default:
+          return `page-not-found.png`
       }
   }
   

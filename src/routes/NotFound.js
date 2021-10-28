@@ -16,7 +16,7 @@ class NotFound extends Component {
   }
 
   render() {
-    const imgNotFound = require(`../assets/img/page-not-found.svg`);
+    const imgNotFound = require(`../assets/img/page-not-found.svg`).default;
 
     return (
       <div style={{ display: 'flex', height: '100vh', backgroundImage: 'url(' + imgNotFound + ')', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>

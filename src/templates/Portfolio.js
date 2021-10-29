@@ -113,6 +113,12 @@ class Portfolio extends Component {
               </div>
             }
             {
+              project.images.section1Window &&
+              <div className="col-sm-12 project-hero-window project-section-1-window">
+                <img src={ require(`../assets/img/portfolio/${project.images.section1Window}`).default } alt="" className="img-responsive drop-shadow" />
+              </div>
+            }
+            {
               project.images.introPhone &&
               <div className="col-sm-12 project-hero-phone">
                 <div>

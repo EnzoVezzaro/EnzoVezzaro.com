@@ -231,7 +231,12 @@
     width: 30px;
     height: 30px;
     padding: 0;
-    font-size: 30px
+    font-size: 30px;
+}
+
+.box-primary-nav .box-social a img {
+    width: inherit;
+    height: inherit;
 }
 
 .box-primary-nav.is-visible {

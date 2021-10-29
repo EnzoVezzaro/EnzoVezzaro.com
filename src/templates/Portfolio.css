@@ -214,6 +214,12 @@
   z-index: 9;
 }
 
+.project .top-bar .project-section-1-window{
+  margin-top: 60px;
+  margin-bottom: -340px; 
+  z-index: 9;
+}
+
 .project .top-bar .project-hero-phone{
   display: flex;
   justify-content: flex-end;
@@ -333,6 +339,11 @@
   .project .container-fluid #section_1 div:first-child{
     top: 0 !important;
   }
+  .project .top-bar .project-section-1-window{
+    margin-top: 100px;
+    margin-bottom: -100px; 
+    z-index: 9;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -385,5 +396,10 @@
   }
   .project .container-fluid #section_3 div img:first-child{
     top: 160px !important;
+  }
+  .project .top-bar .project-section-1-window{
+    margin-top: 150px;
+    margin-bottom: 0px; 
+    z-index: 9;
   }
 }

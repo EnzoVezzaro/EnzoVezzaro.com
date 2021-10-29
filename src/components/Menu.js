@@ -53,6 +53,11 @@ class Menu extends Component {
                       <img src={require("../assets/img/medium.svg").default} alt="Logo" />
                     </a>
                   </li>
+                  <li className="box-social">
+                    <a href="https://gitcoin.co/enzovezzaro" target='_blank'>
+                      <img style={{ position: 'relative', top: '-4px' }} src={require("../assets/img/gitcoin-white.svg").default} alt="Logo" />
+                    </a>
+                  </li>
                   <li className="box-social"><a href="https://github.com/EnzoVezzaro" target='_blank'><i className="ion-social-github"></i></a></li>
                 </div>
             </ul>

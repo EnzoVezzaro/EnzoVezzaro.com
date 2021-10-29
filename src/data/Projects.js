@@ -130,9 +130,56 @@ module.exports = {
       path: 'project/red-cannabica-rd-platform',
       link: 'http://redcannabica.info/es-ES/'
     },{
+      title: 'URBN',
+      description: 'We mint your Art on the best marketplaces for digital assets.',
+      body: 'Urbn is an online Art Gallery for digital items and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital assets from local Artists.',
+      client: 'URBN',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Web Development',
+        'Web3',
+        'Open Source'
+      ],
+      technology:[
+        'HTML5',
+        'CSS',
+        'JS',
+        'WEB3', 
+        'IPFS',
+        'FLEEK',
+        'GITHUB'
+      ],
+      github_link:"https://github.com/EnzoVezzaro/Urbn-Landing",
+      images: {
+        introWindow: 'urbn-desktop.png',
+        introPhone: '',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'urbn-desktop.png',
+      keywords: {
+        main: 'Website',
+        secondary: 'Web3'
+      },
+      path: 'project/urbn',
+      link: 'https://urbnartgallery.com'
+    },{
       title: 'Aletheia Data - Hep',
       description: 'Aletheia is a citizen effort project that seeks to encourage both public and private entities to facilitate access to public information.',
-      body: 'This map was created to facilitate the visualization of the data from the 2020 Elections in the Dominican Republic.',
+      body: 'La Biblioteca de Alexandria es un espacio virtual diseñado para preservar y hacer crecer el conocimiento de la humanidad, haciendo la Web más resistente y abierto.',
       client: 'Aletheia ORG',
       section_1:{
         title: '',
@@ -148,28 +195,32 @@ module.exports = {
       },
       services:[
         'Web Development',
-        'Web Design',
+        'Web3',
         'Open Source'
       ],
       technology:[
         'REACTJS',
+        'STRAPI',
+        'GITCOIN', 
+        'WEB3', 
         'IPFS',
         'FLEEK',
-        'GITHUB'
+        'GITHUB',
+        'HEROKU'
       ],
       github_link:"https://github.com/Aletheia-Data/heptastadion.aletheiadata.org",
       images: {
-        introWindow: 'aletheia-data.png',
+        introWindow: 'hep-aletheiadata-desktop.png',
         introPhone: '',
-        section1Window: '',
+        section1Window: 'hep-aletheiadata-admin.png',
         section2Window: '',
         section3Tablet: '',
         section3Phone: '',
       },
-      thumbnail: 'aletheia-data.png',
+      thumbnail: 'hep-aletheiadata.png',
       keywords: {
         main: 'Web App',
-        secondary: 'Decentralization'
+        secondary: 'Web3'
       },
       path: 'project/aletheia-data-hep',
       link: 'https://aletheiadata-hep.on.fleek.co'
@@ -193,7 +244,7 @@ module.exports = {
       services:[
         'Cloud Development',
         'Web Development',
-        'Open Source'
+        'Elastic Search'
       ],
       technology:[
         'REACTJS',
@@ -287,9 +338,6 @@ module.exports = {
       technology:[
         'REACTJS',
         'NETLIFY',
-        'HTML5',
-        'CSS',
-        'JS',
         'GITHUB'
       ],
       github_link:"",
@@ -307,7 +355,7 @@ module.exports = {
         secondary: 'Website'
       },
       path: 'project/desperto-rd',
-      link: 'https://www.despertord.com/'
+      link: 'https://sevan.netlify.app/'
     },{
       title: 'Cigua App',
       description: 'Travel with ease, experience authentic and local activities.',
@@ -354,7 +402,7 @@ module.exports = {
         secondary: 'Mobile App'
       },
       path: 'project/cigua-app',
-      link: 'https://cigua.app'
+      link: 'https://cigua.netlify.app'
     },{
       title: 'Doggie Box',
       description: 'Prof Of Concept (POC) for DoggieBox LLC. DoggieBox is a monthly subscription platform for toys and snacks for your dog.',
@@ -399,8 +447,52 @@ module.exports = {
       },
       path: 'project/dobbie-box',
       link: 'https://doggybox-1e71a.firebaseapp.com/'
-    },
-    {
+    },{
+      title: 'Maria Juana RD',
+      description: '🔥 American Premium Glass Art 🎨',
+      body: '👽 Join #mariajuanard on her Journey 🪐',
+      client: 'Maria Juana',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: ""
+      },
+      services:[
+        'Web Design',
+        'Web Development',
+        'E-Store integration',
+        'Social Media Campaign',
+      ],
+      technology:[
+        'REACTJS',
+        'NETLIFY',
+        'STRAPI',
+        'HEROKU',
+        'PAYPAL'
+      ],
+      images: {
+        introWindow: 'maria-juana-rd-desktop.png',
+        introPhone: '',
+        section1Window: 'maria-juana-rd-admin.png',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'maria-juana-rd-desktop.png',
+      keywords: {
+        main: 'Website',
+        secondary: 'E-commerce'
+      },
+      path: 'project/maria-juana-rd',
+      link: 'https://maria-juana-e-commerce.netlify.app/'
+    },{
       title: 'The Vapelife Store',
       description: 'LA Finest online store',
       body: 'They provide the best desktop & portable vaporizers on the market today at a competitive price.',
@@ -493,7 +585,7 @@ module.exports = {
         secondary: 'Identity'
       },
       path: 'project/art-project-united',
-      link: 'http://artprojectunited.com/'
+      link: 'https://enzovezzaro.github.io/artprojectunited/'
     },
     {
       title: 'Cannalliance USA',
@@ -519,8 +611,6 @@ module.exports = {
       ],
       technology:[
         'WORDPRESS',
-        'CSS',
-        'JS',
         'ANALYTICS',
       ],
       images: {
@@ -562,10 +652,10 @@ module.exports = {
         'Social Media Campaign',
       ],
       technology:[
+        'HUGO',
         'HTML5',
         'CSS',
         'JS',
-        'HUGO',
         'ANALYTICS',
         'GITHUB',
         'NETLIFY',
@@ -619,7 +709,7 @@ module.exports = {
       ],
       images: {
         introWindow: 'larasante-intro-window.png',
-        introPhone: 'larasante-intro-phone.png',
+        introPhone: '',
         section1Window: 'larasante-section-1-window.png',
         section2Window: 'test-phones-section-3.png',
         section3Tablet: 'larasante-section-4-tablet.png',

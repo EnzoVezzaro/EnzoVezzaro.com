@@ -54,6 +54,16 @@ let getTechIcons = function getTechIcons(tech) {
           return `pugjs.svg`
         case 'GODADDY':
           return `godaddy.png`
+        case 'WEB3':
+          return `web3.png`
+        case 'GITCOIN':
+          return `gitcoin.png`
+        case 'HEROKU':
+          return `heroku.svg`
+        case 'STRAPI':
+          return `strapi.svg`
+        case 'PAYPAL':
+          return `paypal.svg`
         default:
           return `page-not-found.png`
       }

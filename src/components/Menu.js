@@ -42,7 +42,7 @@ class Menu extends Component {
                 <li><a href="/">Projects</a> <i className="ion-ios-circle-filled color"></i></li>
                 <li><a href="/about-me">About me</a></li>
                 <li><a href="mailto:enzovezzaro05@gmail.com?Subject=Hello%20Enzo" target="_blank">Contact me</a></li>
-                <li><a href={'/img/Resume-compressed.pdf'} target="_blank">Resume</a></li>
+                <li><a href={'https://drive.google.com/file/d/1HrMBrJsnBLVDtpopHkdMclr4TEKY9n15/view'} target="_blank">Resume</a></li>
 
                 <li className="box-label">Follow me</li>
                 <div className='socialContainer'>

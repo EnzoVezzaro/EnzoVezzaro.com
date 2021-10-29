@@ -200,13 +200,13 @@ module.exports = {
       ],
       technology:[
         'REACTJS',
-        'STRAPI',
         'GITCOIN', 
         'WEB3', 
         'IPFS',
         'FLEEK',
         'GITHUB',
-        'HEROKU'
+        'HEROKU',
+        'STRAPI'
       ],
       github_link:"https://github.com/Aletheia-Data/heptastadion.aletheiadata.org",
       images: {
@@ -473,8 +473,8 @@ module.exports = {
       technology:[
         'REACTJS',
         'NETLIFY',
-        'STRAPI',
         'HEROKU',
+        'STRAPI',
         'PAYPAL'
       ],
       images: {

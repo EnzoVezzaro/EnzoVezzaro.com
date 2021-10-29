@@ -612,6 +612,7 @@ module.exports = {
       technology:[
         'WORDPRESS',
         'ANALYTICS',
+        'GODADDY'
       ],
       images: {
         introWindow: 'cannalliance-intro-window.png',

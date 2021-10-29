@@ -172,7 +172,7 @@ module.exports = {
         secondary: 'Decentralization'
       },
       path: 'project/aletheia-data-hep',
-      link: 'https://hep.aletheiadata.org'
+      link: 'https://aletheiadata-hep.on.fleek.co'
     },{
       title: 'Aletheia Data - Search',
       description: 'Our mission is to democratize public information and facilitate access to it.',

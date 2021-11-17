@@ -1,9 +1,52 @@
 module.exports = {
   projects: [
     {
+      title: 'URBN Music Pool',
+      description: 'Urbn is an online Art Gallery for digital items and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital assets from local Artists.',
+      body: 'Urbn is an online Art Gallery for digital items and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital assets from local Artists.',
+      client: 'Urbn Org',
+      section_1:{
+        title: '',
+        body: ""
+      },
+      section_2:{
+        title: '',
+        body: ''
+      },
+      section_3:{
+        title: '',
+        body: "" 
+      },
+      services:[
+        'Web3.0',
+        'OpenSea',
+        'Music'
+      ],
+      technology:[
+        'WEB3',
+        'OPENSEA',
+        'REACTJS',
+      ],
+      github_link:"https://github.com/UrbnDev/urbn-pool",
+      images: {
+        introWindow: 'urbn-screen.png',
+        introPhone: 'urbn-mobile.png',
+        section1Window: '',
+        section2Window: '',
+        section3Tablet: '',
+        section3Phone: '',
+      },
+      thumbnail: 'urbn-thumb.png',
+      keywords: {
+        main: 'Web 3.0',
+        secondary: 'Open Sea'
+      },
+      path: 'project/urbn-pool',
+      link: 'https://urbn-pool.on.fleek.co/'
+    },{
       title: 'Tu Diario RD',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet molestie metus. Praesent mattis, tortor in vestibulum varius, nisi justo cursus nunc, ac porta metus metus sit amet justo.',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet molestie metus.',
+      description: 'Periódico en línea actualizado las 24 horas del día sobre política, economía, deportes, noticias internacionales, entretenimiento, música, cultura, ciencia.',
+      body: '-',
       client: 'Hans Garcia',
       section_1:{
         title: '',

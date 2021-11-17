@@ -64,6 +64,8 @@ let getTechIcons = function getTechIcons(tech) {
           return `strapi.png`
         case 'PAYPAL':
           return `paypal.png`
+        case 'OPENSEA':
+          return `opensea.svg`
         default:
           return `page-not-found.png`
       }

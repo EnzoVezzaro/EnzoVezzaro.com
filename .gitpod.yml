@@ -1,3 +1,10 @@
-vscode:
-  extensions:
-    - shailen.netlify@1.5.0:wiyvev5NzrUy4hyY6IScEA==
+# Commands to start on workspace startup
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: yarn
+    command: yarn start
+# Ports to expose on workspace startup
+ports:
+  - port: 8000
+    onOpen: open-preview

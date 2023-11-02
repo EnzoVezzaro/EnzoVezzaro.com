@@ -76,6 +76,7 @@ a {
 	outline: none;
 	cursor: pointer;
 	display: contents;
+	color: var(--color-link-hover);
 }
 
 a:hover {
@@ -305,6 +306,7 @@ body #cdawrap {
 	font-weight: 300;
 	font-size: clamp(1.5rem, 15vw, 6.5rem);
 	display: inherit;
+	text-shadow: 1px 1px 10px #000;
 }
 
 .content__title.mid {

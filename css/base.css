@@ -317,11 +317,12 @@ body #cdawrap {
 	font-weight: 300;
     font-size: clamp(1.5rem, 1.8rem, 2.3rem);
     line-height: 3rem;
-    width: 50%;
+    width: 60%;
     position: relative;
     margin-top: -35vh;
 	display: inline-flex;
 	flex-direction: column;
+	text-shadow: 1px 1px 10px #000;
 }
 
 .content__title--top, .content__subtitle--top {
@@ -418,5 +419,33 @@ body #cdawrap {
 
 	body #cdawrap {
 	    justify-self: end;
+	}
+}
+
+.mobile-view{
+	display: none;
+}
+
+@media screen and (max-width: 1024px) {
+	main {
+		display: none;
+	}
+	main.mobile-view{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	main {
+		display: none;
+	}
+	main.mobile-view{
+		display: block;
+	}
+	.content {
+		margin-bottom: 450px;
+	}
+	.content__subtitle {
+		display: inline;
 	}
 }

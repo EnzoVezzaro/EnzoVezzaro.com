@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: enzovezzaro.com
-Token: 223bf061fb203fb802c9ff276fafaeb4ddec6653a27c8865fb639f77ac1affbb

@@ -1,0 +1,42 @@
+[
+	{
+		"project": "Aletheia SDK",
+		"url": "https://sdk.aletheiadata.org",
+		"repo": "Publish",
+		"descriptionTitle": "Free and Open Source",
+		"description": " solution streamlining the integration and use of key services and open data from the Dominican government and private organizations in the Dominican Republic.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" }
+		],
+		"stack": [
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
+			{ "key": "jsdocs", "name": "JSDocs", 	"type": "devicon" },
+			{ "key": "api",	"name": "API", 	"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" }
+		]
+	},
+	{
+		"project": "Legal GPT",
+		"url": "https://legal-gpt.netlify.app/",
+		"repo": "P.O.C.",
+		"descriptionTitle": "24/7 Online Legal Assistant",
+		"description": "built on Next.js and model ChatGPT tailored for legal questions, making the search for legal answers a breeze.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "800", "w": "700",  "url": "/img/portfolio-mock_single.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "pinecone", 	"name": "Pinecone", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "openai",		"name": "openai", 		"type": "devicon" }
+		]
+	}
+]

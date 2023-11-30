@@ -24,6 +24,7 @@
 		flex-direction: row;
 		justify-content: space-between;
 		position: relative;
+		align-items: center;
 
 		a {
 			display: flex;
@@ -33,6 +34,23 @@
 			font-weight: 600;
 			font-family: var(--font-sans);
 			color: var(--primary-dim);
+		}
+
+		.imgBack{
+			background: var(--primary-dark);
+			opacity: 50%;
+			width: 70px;
+			height: 70px;
+			position: absolute;
+			left: 11px;
+			z-index: -1;
+			border-radius: 50px;
+		}
+
+		img {
+			width: 60px;
+			height: 60px;
+			margin-left: 1rem;
 		}
 	}
 

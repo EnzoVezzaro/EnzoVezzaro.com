@@ -36,7 +36,7 @@ export default function Technical() {
 					<div className={about.copy}>
 						<CopyBlock 
 							title="Design + Code: Where Creativity Meets Functionality"
-							icon={[ 'fat', 'chart-network' ]}
+							icon={[ 'far', 'chart-bar' ]}
 							copy="Grounded in both design and development, I provide a distinctive approach to every project, embracing a continuous learning mindset to keep pace with the dynamic trends in the industry."
 							iconClass={about.icon}
 							containerClass={about.container}
@@ -47,7 +47,7 @@ export default function Technical() {
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
-							icon="grid-2-plus"
+							icon="gem"
 							containerClass={about.container}
 							headerIcon={about.icon} 
 						/>
@@ -57,7 +57,7 @@ export default function Technical() {
 							list={tech} 
 							block="tech"
 							fullContainer="fullContainer" 
-							icon="laptop-code"
+							icon="window-restore"
 							containerClass={about.container}
 							headerIcon={about.icon} 
 						/>							
@@ -80,7 +80,7 @@ const software = [
 	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
 	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
 	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
+	{ key: 'mailbox', 		name: 'Postman', 			type: 'far' },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
 	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
@@ -93,13 +93,13 @@ const software = [
 ]
 
 const tech	= [
-	{ key: 'web3', 			name: 'Ethers.js', 				type: 'fat' },
-	{ key: 'web3', 	name: 'Hardhat', 			type: 'fat' },
-	{ key: 'web3', 	name: 'Moralis', 		type: 'fat' },
-	{ key: 'web3', 		name: 'MagicLink', 				type: 'fat' },
-	{ key: 'web3', 		name: 'Infura', 			type: 'fat' },
-	{ key: 'web3', 		name: 'Ganache', 			type: 'fat' },
-	{ key: 'web3', 		name: 'Alchemy', 			type: 'fat' },
-	{ key: 'web3', 		name: 'IPFS', 			type: 'fat' },
-	{ key: 'web3', 		name: 'Arweave', 			type: 'fat' },
+	{ key: 'web3', 			name: 'Ethers.js', 				type: 'far' },
+	{ key: 'web3', 	name: 'Hardhat', 			type: 'far' },
+	{ key: 'web3', 	name: 'Moralis', 		type: 'far' },
+	{ key: 'web3', 		name: 'MagicLink', 				type: 'far' },
+	{ key: 'web3', 		name: 'Infura', 			type: 'far' },
+	{ key: 'web3', 		name: 'Ganache', 			type: 'far' },
+	{ key: 'web3', 		name: 'Alchemy', 			type: 'far' },
+	{ key: 'web3', 		name: 'IPFS', 			type: 'far' },
+	{ key: 'web3', 		name: 'Arweave', 			type: 'far' },
 ]

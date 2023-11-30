@@ -8,7 +8,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700",  "url": "/img/portfolio-mock_aletheia_sdk.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia_sdk.png" }
 		],
 		"stack": [
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
@@ -28,7 +28,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "800", "w": "700",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "left", "h": "600", "w": "700",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
@@ -49,7 +49,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700",  "url": "/img/portfolio-mock_aletheia.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
@@ -74,7 +74,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700", "url": "/img/portfolio-mock_single_tu_diario_rd.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "700", "url": "/img/portfolio-mock_single_tu_diario_rd.png" }
 		],
 		"stack": [
 			{ "key": "php", 			"name": "PHP", 				"type": "devicon" },
@@ -86,7 +86,7 @@
 	},
 	{
 		"project": "Cigua APP",
-		"url": "#",
+		"url": "https://cigua.netlify.app/",
 		"repo": "MVP",
 		"descriptionTitle": "Cigua App",
 		"description": "  is a travel platform that offers a unique blend of eco-friendly exploration and community impact.",
@@ -94,7 +94,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/portfolio-mock_single_cigua_app.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "900", "w": "456", "url": "/img/portfolio-mock_single_cigua_app.png" }
 		],
 		"stack": [
 			{ "key": "react", 		"name": "React (Native)", 		"type": "devicon" },
@@ -106,7 +106,7 @@
 	},
 	{
 		"project": "Cure4Mee",
-		"url": "#",
+		"url": "https://www.figma.com/file/5zwvZV8zP41Ry9FwbRAkcl/Care4Mee?type=design&node-id=0%3A1&mode=design&t=9mwsKaf1MzfVSupW-1",
 		"repo": "POC",
 		"descriptionTitle": "Care4Mee",
 		"description": "  is a platform dedicated to facilitating connections between families and caregivers.",
@@ -114,7 +114,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700", "url": "/img/portfolio-mock_cure.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "700", "url": "/img/portfolio-mock_cure.png" }
 		],
 		"stack": [
 			{ "key": "figma", 		"name": "Figma", 				"type": "devicon" },

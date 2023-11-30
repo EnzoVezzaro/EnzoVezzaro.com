@@ -36,22 +36,21 @@ export default function FeaturedProject({ content }, index) {
 			whileHover="hover"
 			animate={controls} >
 			
-			<div className={css.details}>
-				<div className={css.projectHeader}>
-					<div className={css.header}>
-						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
+			<a href={url} target={ url ? '_blank' : ''}>
+				<div className={css.details}>
+					<div className={css.projectHeader}>
+						<div className={css.header}>
+							<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
+						</div>
+						<div className={css.description}>
+							<p><strong>{descriptionTitle}</strong> {description}</p>
+						</div>
+						<div className={css.stackContainer}>
+							<Badges list={stack} block="stack" fullContainer={false} color={false} />
+						</div>
 					</div>
-					<div className={css.description}>
-						<p><strong>{descriptionTitle}</strong> {description}</p>
-					</div>
-					<div className={css.stackContainer}>
-						<Badges list={stack} block="stack" fullContainer={false} color={false} />
-					</div>
-					<m.div variants={''} className={css.viewProject}>
-						<a href={url} target='_blank'><Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} /></a>
-					</m.div>
 				</div>
-			</div>
+			</a>
 
 			<div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>

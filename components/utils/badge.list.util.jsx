@@ -83,11 +83,10 @@ export default function Badges({ list, block, color, fullContainer }) {
 function IconModule({ iconKey, iconType, color }) {
 	let colored = 'colored'
 	if (color === false) { colored = '' }
-
+	console.log(iconType, iconKey);
 	switch (iconType) {
+		case 'fab':
 		case 'far':
-		case 'fad':
-		case 'fat':
 		case 'fas':
 			return ( <Icon icon={[ iconType, iconKey ]} /> )
 		case 'devicon':

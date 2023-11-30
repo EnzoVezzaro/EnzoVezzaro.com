@@ -43,7 +43,7 @@ export default function About() {
 							title="Softskills that pay the bills"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
+							icon={[ 'far', 'circle-check' ]}
 							copy="In addition to my proficiency in design and technology; my time management, and multitasking skills have evolved over a decade of professional experience. Beyond my professional life, I find joy in walking my dog, travel, and spending time with my wife."
 						/>
 						<BadgesBlock 
@@ -52,7 +52,7 @@ export default function About() {
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
-							icon="fingerprint"
+							icon="newspaper"
 							copy="Planning the architecture of web projects is where I find my passion and creativity converging. From envisioning designs to hands-on product development, I immerse myself in every facet of user experience."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
@@ -65,7 +65,7 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Experience', 		type: 'fad' },
+	{ key: 'airplay', 		name: 'User Experience', 		type: 'fad' },
 	{ key: 'qrcode', 			name: 'Digital Products', 	type: 'fad' },
 	{ key: 'window', 			name: 'Fullstack Development', 	type: 'fad' },
 	{ key: 'cubes', 			name: 'Product Design', 	type: 'far' },

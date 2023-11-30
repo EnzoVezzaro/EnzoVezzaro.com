@@ -28,7 +28,7 @@ export default function GitProjects({ repos, user }) {
 							<>
 							<article key={index} className={css.project}>
 								<span className={css.header}>
-									<a href={html_url} rel="noreferrer" target="_blank">{name} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={html_url} rel="noreferrer" target="_blank">{name} <Icon icon={[ 'fas', 'arrow-up-right-from-square' ]} /></a>
 									<p className={css.homepage}>{homepage}</p>
 								</span>
 								<span className={css.descriptionContainer}>
@@ -36,8 +36,8 @@ export default function GitProjects({ repos, user }) {
 								</span>
 								<span className={css.details}>
 									<p><i className={`devicon-${language?.toLowerCase()}-plain colored`} /> {language}</p>
-									<p><Icon icon={[ 'fad', 'star' ]} /> {watchers}</p>
-									<p><Icon icon={[ 'fad', 'code-branch' ]} /> {commits_count}</p>
+									<p><Icon icon={[ 'fas', 'star' ]} /> {watchers}</p>
+									<p><Icon icon={[ 'fas', 'code-branch' ]} /> {commits_count}</p>
 									<p className={css.pushedAt}>{date}</p>
 								</span>
 								<span className={css.topicsContainer}>

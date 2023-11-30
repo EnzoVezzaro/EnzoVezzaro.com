@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const Enzo = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Enzo Vezzaro.",
+		"usp": "Constantly evolving in the digital world."
+	},
+
+	"paragraph": "I am a dynamic and innovative developer, merging creativity with technical expertise to craft unique and impactful digital solutions.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "mailto:enzo-vezzaro@live.it",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/enzo-vezzaro/",
+			"leaveSite": "true"
+		}
+	}
+}

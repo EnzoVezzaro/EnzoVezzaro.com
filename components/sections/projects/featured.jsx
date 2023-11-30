@@ -10,8 +10,11 @@ import SectionTitle from '../../blocks/section.title.block'
 
 import css 			from '../../../styles/sections/projects/featured.module.scss'
 import content 		from '../../../content/projects/featured.json'
-
-export default function FeaturedProjects() {
+import Link from 'next/link';
+ 
+export default function FeaturedProjects({ isHome }) {
+	console.log(isHome);
+	let projects = content.slice(0, isHome ? 3 : content.length)
 
 	return (
 		<Section classProp={css.hasBg}>	
@@ -20,12 +23,13 @@ export default function FeaturedProjects() {
 					title="Featured Projects"
 					preTitle="UX and Full Stack"
 					subTitle="Focused on the experience, driven by the engineering."
-				/> 				{
-				content.map( (data, index) => {
-					return (
-						<FeaturedProject content={data} index={index} key={index} />
-					)
-				})
+				/> 				
+				{
+					projects.map( (data, index) => {
+						return (
+							<FeaturedProject content={data} index={index} key={index} />
+						)
+					})
 				}
 			</Container>
 			<div className={css.bgContainer}>
@@ -36,6 +40,7 @@ export default function FeaturedProjects() {
 				</span>
 				<span className={css.afterGlowBg}></span>
 			</div>
+			
 		</Section>
 	)
 }

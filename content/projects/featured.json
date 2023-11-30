@@ -2,13 +2,13 @@
 	{
 		"project": "Aletheia SDK",
 		"url": "https://sdk.aletheiadata.org",
-		"repo": "Publish",
-		"descriptionTitle": "Free and Open Source",
-		"description": " solution streamlining the integration and use of key services and open data from the Dominican government and private organizations in the Dominican Republic.",
+		"repo": "Public",
+		"descriptionTitle": "Free and Open Source SDK",
+		"description": " solution streamlining the integration and use of key services and open data available online.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700",  "url": "/img/portfolio-mock_aletheia_sdk.png" }
 		],
 		"stack": [
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
@@ -21,7 +21,7 @@
 	{
 		"project": "Legal GPT",
 		"url": "https://legal-gpt.netlify.app/",
-		"repo": "P.O.C.",
+		"repo": "POC",
 		"descriptionTitle": "24/7 Online Legal Assistant",
 		"description": "built on Next.js and model ChatGPT tailored for legal questions, making the search for legal answers a breeze.",
 		"imageOptions": [
@@ -37,6 +37,88 @@
 			{ "key": "pinecone", 	"name": "Pinecone", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "openai",		"name": "openai", 		"type": "devicon" }
+		]
+	},
+	{
+		"project": "Aletheia Data",
+		"url": "https://aletheiadata.org/",
+		"repo": "Public",
+		"descriptionTitle": "Alethea Data",
+		"description": "  is an Open Source initiative that addresses the challenge of providing easy access to public information.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700",  "url": "/img/portfolio-mock_aletheia.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "netlify", 		"name": "Netlify", 		"type": "devicon" },
+			{ "key": "aws", 		"name": "AWS", 		"type": "devicon" },
+			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "web3", 			"name": "Ethers.js", 				"type": "fat" },
+			{ "key": "web3", 		"name": "MagicLink", 				"type": "fat" },
+			{ "key": "web3", 		"name": "Infura", 			"type": "fat" },
+			{ "key": "web3", 		"name": "Polygon", 			"type": "fat" },
+			{ "key": "web3", 		"name": "IPFS", 			"type": "fat" }
+		]
+	},
+	{
+		"project": "Tu Diario RD",
+		"url": "https://tudiariord.com/",
+		"repo": "Private",
+		"descriptionTitle": "Tu Diario RD",
+		"description": " emerges as a dynamic online newspaper, meticulously updated 24 hours a day, offering a comprehensive coverage spectrum.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700", "url": "/img/portfolio-mock_single_tu_diario_rd.png" }
+		],
+		"stack": [
+			{ "key": "php", 			"name": "PHP", 				"type": "devicon" },
+			{ "key": "wordpress", 	"name": "WordPress", 			"type": "devicon" },
+			{ "key": "woocommerce", 	"name": "WooCommerce", 		"type": "devicon" },
+			{ "key": "mysql", 		"name": "MySQL", 				"type": "devicon" },
+			{ "key": "godaddy", 		"name": "GoDaddy", 			"type": "devicon" }
+		]
+	},
+	{
+		"project": "Cigua APP",
+		"url": "#",
+		"repo": "MVP",
+		"descriptionTitle": "Cigua App",
+		"description": "  is a travel platform that offers a unique blend of eco-friendly exploration and community impact.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/portfolio-mock_single_cigua_app.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React (Native)", 		"type": "devicon" },
+			{ "key": "netlify", 		"name": "Netlify", 		"type": "devicon" },
+			{ "key": "aws", 		"name": "AWS", 		"type": "devicon" },
+			{ "key": "aws", 		"name": "DynamoDB", 		"type": "devicon" },
+			{ "key": "product", 		"name": "Product Development", 		"type": "devicon" }
+		]
+	},
+	{
+		"project": "Cure4Mee",
+		"url": "#",
+		"repo": "POC",
+		"descriptionTitle": "Care4Mee",
+		"description": "  is a platform dedicated to facilitating connections between families and caregivers.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "800", "w": "700", "url": "/img/portfolio-mock_cure.png" }
+		],
+		"stack": [
+			{ "key": "figma", 		"name": "Figma", 				"type": "devicon" },
+			{ "key": "prototype", 		"name": "Prototype", 		"type": "devicon" }
 		]
 	}
 ]

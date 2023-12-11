@@ -1,5 +1,25 @@
 [
 	{
+		"project": "Chispa AI",
+		"url": "https://chispa-ai.com",
+		"repo": "Private",
+		"descriptionTitle": "Chispa AI",
+		"description": "es una innovadora plataforma de inteligencia artificial diseñada exclusivamente para la República Dominicana.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_single_chispa.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
+			{ "key": "api",	"name": "API", 	"type": "devicon" },
+			{ "key": "openai",		"name": "openai", 		"type": "devicon" }
+		]
+	},
+	{
 		"project": "Aletheia SDK",
 		"url": "https://sdk.aletheiadata.org",
 		"repo": "Public",
@@ -8,7 +28,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia_sdk.png" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia_sdk.png" }
 		],
 		"stack": [
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
@@ -28,7 +48,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "600", "w": "700",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
@@ -49,7 +69,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia.png" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
@@ -94,7 +114,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "900", "w": "456", "url": "/img/portfolio-mock_single_cigua_app.png" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "900", "w": "456", "url": "/img/portfolio-mock_single_cigua_app.png" }
 		],
 		"stack": [
 			{ "key": "react", 		"name": "React (Native)", 		"type": "devicon" },

@@ -21,7 +21,7 @@
 	},
 	{
 		"project": "Aletheia SDK",
-		"url": "https://sdk.aletheiadata.org",
+		"url": "https://aletheia-sdk.netlify.app/",
 		"repo": "Public",
 		"descriptionTitle": "Free and Open Source SDK",
 		"description": " solution streamlining the integration and use of key services and open data available online.",
@@ -61,7 +61,7 @@
 	},
 	{
 		"project": "Aletheia Data",
-		"url": "https://aletheiadata.org/",
+		"url": "https://aletheia-data.gitbook.io/aletheia",
 		"repo": "Public",
 		"descriptionTitle": "Alethea Data",
 		"description": "  is an Open Source initiative that addresses the challenge of providing easy access to public information.",

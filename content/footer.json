@@ -1,9 +1,9 @@
 {
 	"experience": [
 		{ 
-			"person": "Chief Technology Officer (CTO)",
-			"link": "hppts://aw3a.com",
-			"note": "AW3A | A Web3 Agency"
+			"person": "Full Stack Engineer",
+			"link": "#",
+			"note": "Freelance"
 		},
 		{ 
 			"person": "Web3 Frontend Engineer",
@@ -21,12 +21,11 @@
 			"note": "Eleva SRL"
 		}
 	],
-
 	"certificates": [
 		{ 
-			"person": "Getting Started with ChatGPT-4",
-			"link": "https://olympus1.mygreatlearning.com/course_certificates/download.pdf?user_name=LKQFKAMD",
-			"note": "Great Learning"
+			"person": "EVM Chain Certification, Blockchain DevelopmentEVM Chain Certification, Blockchain Development",
+			"link": "https://www.linkedin.com/in/enzo-vezzaro/details/education/",
+			"note": "Alchemy University"
 		},
 		{ 
 			"person": "AWS Solutions Training for Partners- Containers on AWS - Technical (Classroom)",

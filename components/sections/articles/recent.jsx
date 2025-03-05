@@ -28,9 +28,6 @@ export default function Recent({ mediumArticles }) {
 						return (
 							<>
 							<article key={index} className={css.project}>
-								<span className={css.featuredImage}>
-									<img src={thumbnail} alt="Article thumbnail" />
-								</span>
 								<span className={css.header}>
 									<a href={link} rel="noreferrer" target="_blank">{title} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
 								</span>

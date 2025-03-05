@@ -1,11 +1,6 @@
 {
 	"experience": [
 		{ 
-			"person": "Full Stack Engineer",
-			"link": "#",
-			"note": "Freelance"
-		},
-		{ 
 			"person": "Web3 Frontend Engineer",
 			"link": "https://oceanprotocol.com/",
 			"note": "Ocean Protocol"

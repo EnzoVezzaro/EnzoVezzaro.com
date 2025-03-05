@@ -20,46 +20,6 @@
 		]
 	},
 	{
-		"project": "Aletheia SDK",
-		"url": "https://aletheia-sdk.netlify.app/",
-		"repo": "Public",
-		"descriptionTitle": "Free and Open Source SDK",
-		"description": " solution streamlining the integration and use of key services and open data available online.",
-		"imageOptions": [
-		],
-		"images": [
-			{ "key": "mock-stack",	"hover": "left", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia_sdk.png" }
-		],
-		"stack": [
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
-			{ "key": "jsdocs", "name": "JSDocs", 	"type": "devicon" },
-			{ "key": "api",	"name": "API", 	"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" }
-		]
-	},
-	{
-		"project": "Legal GPT",
-		"url": "https://legal-gpt.netlify.app/",
-		"repo": "POC",
-		"descriptionTitle": "24/7 Online Legal Assistant",
-		"description": "built on Next.js and model ChatGPT tailored for legal questions, making the search for legal answers a breeze.",
-		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
-		],
-		"images": [
-			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_single.png" }
-		],
-		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "pinecone", 	"name": "Pinecone", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "openai",		"name": "openai", 		"type": "devicon" }
-		]
-	},
-	{
 		"project": "Aletheia Data",
 		"url": "https://aletheia-data.gitbook.io/aletheia",
 		"repo": "Public",
@@ -82,6 +42,70 @@
 			{ "key": "web3", 		"name": "Infura", 			"type": "fat" },
 			{ "key": "web3", 		"name": "Polygon", 			"type": "fat" },
 			{ "key": "web3", 		"name": "IPFS", 			"type": "fat" }
+		]
+	},
+	{
+		"project": "Aletheia SDK",
+		"url": "https://aletheia-sdk.netlify.app/",
+		"repo": "Public",
+		"descriptionTitle": "Free and Open Source SDK",
+		"description": " solution streamlining the integration and use of key services and open data available online.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left", 	"h": "600", "w": "700",  "url": "/img/portfolio-mock_aletheia_sdk.png" }
+		],
+		"stack": [
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
+			{ "key": "jsdocs", "name": "JSDocs", 	"type": "devicon" },
+			{ "key": "api",	"name": "API", 	"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" }
+		]
+	},{
+		"project": "DomBets",
+		"url": "https://dom-bets.vercel.app/",
+		"repo": "POC",
+		"descriptionTitle": "Web3 Sport Betting Platform",
+		"description": "Dombets RD is a cutting-edge Web3 sports betting platform designed for the Dominican market and beyond.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_single_dombets.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "vercel", 		"name": "Vercel", 		"type": "devicon" },
+			{ "key": "prisma", 	"name": "PrimaDB", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "web3", 			"name": "Ethers.js", 				"type": "fat" },
+			{ "key": "web3", 		"name": "MagicLink", 				"type": "fat" },
+			{ "key": "web3", 		"name": "Infura", 			"type": "fat" },
+			{ "key": "web3", 		"name": "Polygon", 			"type": "fat" },
+			{ "key": "web3", 		"name": "IPFS", 			"type": "fat" }
+		]
+	},
+	{
+		"project": "Legal GPT",
+		"url": "https://legal-gpt.netlify.app/",
+		"repo": "POC",
+		"descriptionTitle": "24/7 Online Legal Assistant",
+		"description": "built on Next.js and model ChatGPT tailored for legal questions, making the search for legal answers a breeze.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_single.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "pinecone", 	"name": "Pinecone", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "openai",		"name": "openai", 		"type": "devicon" }
 		]
 	},
 	{

@@ -88,6 +88,23 @@
 		]
 	},
 	{
+		"project": "Social Generator",
+		"url": "https://socialgen-creator.vercel.app/",
+		"repo": "POC",
+		"descriptionTitle": "Social Media Content Generator",
+		"description": "Social Generator is a powerful tool designed to automate and optimize content creation for social media platforms, helping users generate engaging posts quickly and efficiently.",
+		"imageOptions": [
+			{ "key": "size", "value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700", "url": "/img/portfolio-mock_single_social_gen.png" }
+		],
+		"stack": [
+			{ "key": "react", "name": "React", "type": "devicon" },
+			{ "key": "aihorde", "name": "AI Horde API", "type": "devicon" }
+		]
+	},
+	{
 		"project": "Legal GPT",
 		"url": "https://legal-gpt.netlify.app/",
 		"repo": "POC",

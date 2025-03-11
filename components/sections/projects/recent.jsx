@@ -14,7 +14,7 @@ export default function GitProjects({ repos, user }) {
 			<Container classProp={css.container} spacing={'verticalXXXLrg'}>
 				<h3>Recent Projects</h3>
 				<section className={css.profile}>
-					<Image className={css.profilePhoto} src={`${user[0].avatar_url}`} alt="Github Profile Photo" height={60} width={60}/>
+					<Image className={css.profilePhoto} src={`${user.length > 0 ? user[0].avatar_url : 'https://avatars.githubusercontent.com/u/13741335?v=4'}`} alt="Github Profile Photo" height={60} width={60}/>
 					<span class={css.details}>
 						<p>{user[0].name}</p>
 						<a href={user[0].html_url} rel="noreferrer" target="_blank">{user[0].html_url} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>

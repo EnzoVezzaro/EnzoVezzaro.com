@@ -1,5 +1,24 @@
 [
 	{
+		"project": "DriveSafe Family",
+		"url": "https://drive-safe-rd.netlify.app",
+		"repo": "Private",
+		"descriptionTitle": "DriveSafe Family",
+		"description": "is a platform that aims to reduce the number of accidents in the Dominican Republic by promoting safe driving practices.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_drivesafe.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React (Native)", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "netlify", 		"name": "netlify", 		"type": "devicon" },
+			{ "key": "supabase",	"name": "supabase", 	"type": "devicon" }
+		]
+	},
+	{
 		"project": "Chispa AI",
 		"url": "https://chispa-ai.vercel.app/",
 		"repo": "Private",

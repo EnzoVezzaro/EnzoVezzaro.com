@@ -41,7 +41,7 @@
 		"url": "https://chispa-ai.vercel.app/",
 		"repo": "Private",
 		"descriptionTitle": "Chispa AI",
-		"description": "es una innovadora plataforma de inteligencia artificial diseñada exclusivamente para la República Dominicana.",
+		"description": "is an custom AI Chat interface tailored for the Dominican Republic.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],

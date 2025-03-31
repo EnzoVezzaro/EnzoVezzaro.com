@@ -1,5 +1,23 @@
 [
 	{
+		"project": "GamePeer JS",
+		"url": "https://gamepeerjs.netlify.app/",
+		"repo": "Public",
+		"descriptionTitle": "GamePeer JS",
+		"description": "Peer-to-peer gaming JS library with a ton of capabilities.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_gamepeerjs.png" }
+		],
+		"stack": [
+			{ "key": "JS", 		"name": "JavaScript", 		"type": "devicon" },
+			{ "key": "peerjs", 		"name": "PeerJS", 		"type": "devicon" },
+			{ "key": "opensource",	"name": "Open Source", 	"type": "devicon" }
+		]
+	},
+	{
 		"project": "DriveSafe Family",
 		"url": "https://drive-safe-rd.netlify.app",
 		"repo": "Private",

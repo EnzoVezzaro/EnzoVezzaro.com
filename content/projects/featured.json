@@ -1,5 +1,134 @@
 [
 	{
+		"project": "Agentix AI",
+		"url": "https://www.agentix.com.do/",
+		"repo": "Private",
+		"descriptionTitle": "Agentix AI",
+		"description": "Agentix RD is a digital agency based in the Dominican Republic that specializes in providing comprehensive digital solutions to businesses.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_agentix.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "netlify", 		"name": "Netlify", 		"type": "devicon" },
+			{ "key": "gemini",	"name": "Google Gemini", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "AI Ana",
+		"url": "https://ai-ana.netlify.app/",
+		"repo": "Private",
+		"descriptionTitle": "AI Ana",
+		"description": "AI Ana is a virtual political campaign platform for Ana María Rodríguez, a fictional or AI-assisted candidate running for office.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_ai_ana.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
+			{ "key": "supabase",	"name": "supabase", 	"type": "devicon" },
+			{ "key": "gemini",	"name": "Google Gemini", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "Emergency RD",
+		"url": "https://emergency-dr.netlify.app/",
+		"repo": "Public",
+		"descriptionTitle": "Emergency RD",
+		"description": "Emergency response system that connects families with loved ones during crisis events.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_emergency_rd.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
+			{ "key": "supabase",	"name": "supabase", 	"type": "devicon" },
+			{ "key": "openai",	"name": "Openai", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "QR Code Manager",
+		"url": "https://qr-access-manager.vercel.app/",
+		"repo": "Private",
+		"descriptionTitle": "QR Code Manager",
+		"description": "Streamline event access control with secure QR codes, real-time check-ins, and comprehensive attendance tracking.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_qr_manager.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
+			{ "key": "supabase",	"name": "supabase", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "Study Genie",
+		"url": "https://ai-study-rosy.vercel.app/",
+		"repo": "Private",
+		"descriptionTitle": "Study Genie",
+		"description": "AI-Powered Exam Prep Material Generator",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_ai_study.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "tailwind", 		"name": "Tailwind CSS", 		"type": "devicon" },
+			{ "key": "gemini",	"name": "Google Gemini", 	"type": "devicon" },
+			{ "key": "neondb",	"name": "Neon DB", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "Cannared RD",
+		"url": "https://cannaredrd.org/",
+		"repo": "Private",
+		"descriptionTitle": "Cannared RD",
+		"description": "CannaReD RD is a non-profit association based in the Dominican Republic that advocates for cannabis education, research, and public policies changes.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_cannared.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "neondb", 		"name": "Neon DB", 		"type": "devicon" },
+			{ "key": "payloadcms",	"name": "Payload CMS", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "KInvoice",
+		"url": "https://kinvoice.netlify.app/",
+		"repo": "Public",
+		"descriptionTitle": "KInvoice",
+		"description": "Open source Invoice Generator.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_k_invoice.png" }
+		],
+		"stack": [
+			{ "key": "JS", 		"name": "JavaScript", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "opensource",	"name": "Open Source", 	"type": "devicon" }
+		]
+	},
+	{
 		"project": "GamePeer JS",
 		"url": "https://gamepeerjs.netlify.app/",
 		"repo": "Public",

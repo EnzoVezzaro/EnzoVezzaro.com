@@ -37,6 +37,25 @@
 		]
 	},
 	{
+		"project": "Patria Segura RD",
+		"url": "https://patria-segura-rd.netlify.app/",
+		"repo": "Public",
+		"descriptionTitle": "Patria Segura RD",
+		"description": "Patria Segura is a community-driven platform that showcases free, open-source apps developed by Dominicans to improve safety and well-being across the country 🇩🇴.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "600", "w": "700",  "url": "/img/portfolio-mock_patria.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "vercel", 		"name": "vercel", 		"type": "devicon" },
+			{ "key": "supabase",	"name": "supabase", 	"type": "devicon" },
+			{ "key": "tailwind",	"name": "tailwind", 	"type": "devicon" }
+		]
+	},
+	{
 		"project": "Emergency RD",
 		"url": "https://emergency-dr.netlify.app/",
 		"repo": "Public",
